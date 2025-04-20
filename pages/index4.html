@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фотостудия</title>
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="stylesheet" href="./../css/style4.css">
+    <link rel="stylesheet" href="./../css/adaptive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+    <nav class="header__nav main-menu">
+        <!-- Логотип -->
+        <img src="../images/logo.svg" alt="Логотип" class="header__logo">
+
+        <!-- Основное меню -->
+        <ul class="header__menu" id="mainMenu">
+            <li class="header__menu-item"><a href="./../index.html">Главная</a></li>
+            <li class="header__menu-item"><a href="./index2.html">Услуги</a></li>
+            <li class="header__menu-item"><a href="./index3.html">Залы</a></li>
+            <li class="header__menu-item"><a href="#">Галерея</a></li>
+            <li class="header__menu-item"><a href="./index5.html">Контакты</a></li>
+        </ul>
+
+        <!-- Кнопка -->
+        <button class="header__btn">Получить консультацию</button>
+
+        <!-- Бургер-иконка (только для мобильных) -->
+        <button class="burger-menu" aria-label="Открыть меню" id="burgerBtn">
+            <span class="burger-menu__line"></span>
+            <span class="burger-menu__line"></span>
+            <span class="burger-menu__line"></span>
+        </button>
+    </nav>
+
+    <section class="header__discount">
+        <p class="header__discount-item">Скидки на летний сезон</p><hr>
+        <p class="header__discount-item">10% скидка на покупку от 20 000 руб. по коду Summer10</p><hr>
+        <p class="header__discount-item">5% скидка на покупку от 50 000 руб. по коду Summer5</p>
+    </section>
+</header>
+    
+    <main class="main">
+        <section class="main__banner">
+            <div class="main__banner-content">
+                <p class="main__banner-subtitle">welcome to</p>
+                <h1 class="main__banner-title"><span class="main__banner-title-line">Noir</span><br><span class="main__banner-title-line">Studio</span></h1>
+            </div>
+            <button class="main__banner-btn">Получить консультацию</button>
+        </section>
+
+        <section class="photogallery">
+            <div class="container">
+                <div class="filter-wrapper">
+                    <button class="filter-toggle-btn">Фильтры ▼</button>
+                    <div class="filter-dropdown">
+                        <div class="filter-options">
+                            <label class="filter-checkbox">
+                                <input type="checkbox" name="filter" value="all" checked> Все
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="checkbox" name="filter" value="family"> Семейные фотосессии
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="checkbox" name="filter" value="portrait"> Портретная съемка
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="checkbox" name="filter" value="wedding"> Свадебные фотосессии
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="checkbox" name="filter" value="fashion"> Fashion и beauty
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="checkbox" name="filter" value="product"> Предметная съемка
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="checkbox" name="filter" value="concert"> Концерты и мероприятия
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <article class="instagram">
+                    <h2><span>Instagram</span></h2>
+                    <hr>
+
+                    <div class="instagram__gallery">
+                        <h3>@noir_studio</h3>
+                        <p>Следите за нашими фотоработами и акциями!</p>
+
+                        <div class="instagram__gallery__photo" id="gallery-container">
+                            <!-- сюда добавлять фото -->
+                        </div>
+
+                        <div class="gallery-controls">
+                            <button class="gallery-btn" id="load-more">Загрузить ещё</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!--Фотографии на весь экран с кнопками прокрутки -->
+        <div class="fullscreen-overlay" id="fullscreen-overlay">
+            <button class="close-fullscreen" id="close-fullscreen">×</button>
+            <button class="nav-arrow prev-arrow" id="prev-arrow">❮</button>
+            <img src="" alt="Просмотр фотографии" class="fullscreen-image" id="fullscreen-image">
+            <button class="nav-arrow next-arrow" id="next-arrow">❯</button>
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer__content">
+            <section class="footer__section">
+                <h3 class="footer__title">Покупателям</h3>
+                <ul class="footer__links">
+                    <li class="footer__link-item"><a href="#">Как сделать заказ</a></li>
+                    <li class="footer__link-item"><a href="#">Оплата и доставка</a></li>
+                    <li class="footer__link-item"><a href="#">Возврат товара</a></li>
+                    <li class="footer__link-item"><a href="#">Публичная оферта</a></li>
+                    <li class="footer__link-item"><a href="#">Политика конфиденциальности</a></li>
+                </ul>
+            </section>
+    
+            <section class="footer__section">
+                <h3 class="footer__title">Контакты</h3>
+                <ul class="footer__contacts">
+                    <li class="footer__contact-item"><i class="fas fa-phone"></i> +7 (812) 438-01-14</li>
+                    <li class="footer__contact-item"><i class="fas fa-envelope"></i> info@noirstudio.ru</li>
+                    <li class="footer__contact-item"><i class="fas fa-clock"></i> Пн-Вс 09:00-20:00</li>
+                    <li class="footer__contact-item"><i class="fas fa-map-marker-alt"></i> Санкт-Петербург, ул. Большая Конюшенная, 11</li>
+                </ul>
+            </section>
+    
+            <section class="footer__section">
+                <h3 class="footer__title">О нас</h3>
+                <ul class="footer__links">
+                    <li class="footer__link-item"><a href="#">Кто мы</a></li>
+                    <li class="footer__link-item"><a href="#">Реквизиты</a></li>
+                    <li class="footer__link-item"><a href="#">Отзывы</a></li>
+                </ul>
+            </section>
+    
+            <section class="footer__section">
+                <h3 class="footer__title">Партнерам</h3>
+                <ul class="footer__links">
+                    <li class="footer__link-item"><a href="#">Заявка на сотрудничество</a></li>
+                    <li class="footer__link-item"><a href="#">Услуги</a></li>
+                </ul>
+            </section>
+    
+            <section class="footer__section">
+                <h3 class="footer__title">Мы в соцсетях</h3>
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link"><img src="../images/instagram.svg" alt="Instagram" loading="lazy"></a>
+                    <a href="#" class="footer__social-link"><img src="../images/facebook.svg" alt="Facebook" loading="lazy"></a>
+                    <a href="#" class="footer__social-link"><img src="../images/twitter.svg" alt="Twitter" loading="lazy"></a>
+                    <a href="#" class="footer__social-link"><img src="../images/googlglgl.svg" alt="Google" loading="lazy"></a>
+                </div>
+    
+                <h4 class="footer__payment-title">Мы принимаем</h4>
+                <div class="footer__payment-methods">
+                    <img src="../images/visa.svg" alt="Visa" class="footer__payment-method" loading="lazy">
+                    <img src="../images/paypal.svg" alt="PayPal" class="footer__payment-method" loading="lazy">
+                    <img src="../images/master_card (1).svg" alt="MasterCard" class="footer__payment-method" loading="lazy">
+                    <img src="../images/union_pay.svg" alt="Union_pay" class="footer__payment-method" loading="lazy">
+                </div>
+            </section>
+        </div>
+    </footer>
+
+    <script src="./../js/script.js"></script>
+</body>
+</html>

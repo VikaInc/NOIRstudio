@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фотостудия</title>
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="stylesheet" href="./../css/style3.css">
+
+    <link rel="stylesheet" href="./../css/adaptive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+    <nav class="header__nav main-menu">
+        <!-- Логотип -->
+        <img src="../images/logo.svg" alt="Логотип" class="header__logo">
+
+        <!-- Основное меню -->
+        <ul class="header__menu" id="mainMenu">
+            <li class="header__menu-item"><a href="./../index.html">Главная</a></li>
+            <li class="header__menu-item"><a href=" ./index2.html">Услуги</a></li>
+            <li class="header__menu-item"><a href="#">Залы</a></li>
+            <li class="header__menu-item"><a href="./index4.html">Галерея</a></li>
+            <li class="header__menu-item"><a href="./index5.html">Контакты</a></li>
+        </ul>
+
+        <!-- Кнопка -->
+        <button class="header__btn">Получить консультацию</button>
+
+        <!-- Бургер-иконка (только для мобильных) -->
+        <button class="burger-menu" aria-label="Открыть меню" id="burgerBtn">
+            <span class="burger-menu__line"></span>
+            <span class="burger-menu__line"></span>
+            <span class="burger-menu__line"></span>
+        </button>
+    </nav>
+
+    <section class="header__discount">
+        <p class="header__discount-item">Скидки на летний сезон</p><hr>
+        <p class="header__discount-item">10% скидка на покупку от 20 000 руб. по коду Summer10</p><hr>
+        <p class="header__discount-item">5% скидка на покупку от 50 000 руб. по коду Summer5</p>
+    </section>
+</header>
+    <main class="main">
+        <section class="main__banner">
+            <div class="main__banner-content">
+                <p class="main__banner-subtitle">welco41me to</p>
+                <h1 class="main__banner-title"><span class="main__banner-title-line">Noir</span><br><span class="main__banner-title-line">Studio</span></h1>
+            </div>
+            <button class="main__banner-btn">Получить консультацию</button>
+        </section>
+        <div class="container">
+            <div class="location-choice">
+                <h2><span>Выбор</span><br>локации</h2>
+                <hr>
+
+                <div class="location-choice__card__container">
+                    <div class="location-choice__card">
+                        <img src="../images/zal1img.jpg" alt="photo">
+                        <div class="location-choice__card__title">
+                            <button class="location-choice__card-btn">
+                                <a href="#zal1"><svg width="39" height="16" viewBox="0 0 39 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M38.7071 8.7071C39.0976 8.31658 39.0976 7.68341 38.7071 7.29289L32.3431 0.928929C31.9526 0.538405 31.3195 0.538405 30.9289 0.928929C30.5384 1.31945 30.5384 1.95262 30.9289 2.34314L36.5858 8L30.9289 13.6569C30.5384 14.0474 30.5384 14.6805 30.9289 15.0711C31.3195 15.4616 31.9526 15.4616 32.3431 15.0711L38.7071 8.7071ZM8.74228e-08 9L38 9L38 7L-8.74228e-08 7L8.74228e-08 9Z" fill="white" /></svg>
+                                </a>
+                            </button>
+                            <h3>Минималистичный зал</h3>
+                        </div>
+                    </div>
+
+                    <div class="location-choice__card">
+                        <img src="../images/zal2img.jpg" alt="photo">
+                        <div class="location-choice__card__title">
+                            <button class="location-choice__card-btn">
+                                <a href="#zal2"><svg width="39" height="16" viewBox="0 0 39 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M38.7071 8.7071C39.0976 8.31658 39.0976 7.68341 38.7071 7.29289L32.3431 0.928929C31.9526 0.538405 31.3195 0.538405 30.9289 0.928929C30.5384 1.31945 30.5384 1.95262 30.9289 2.34314L36.5858 8L30.9289 13.6569C30.5384 14.0474 30.5384 14.6805 30.9289 15.0711C31.3195 15.4616 31.9526 15.4616 32.3431 15.0711L38.7071 8.7071ZM8.74228e-08 9L38 9L38 7L-8.74228e-08 7L8.74228e-08 9Z" fill="white" /></svg>
+                                </a>
+                            </button>
+                            <h3>Лофт-зал</h3>
+                        </div>
+                    </div>
+
+                    <div class="location-choice__card">
+                        <img src="../images/zal3img.jpg" alt="photo">
+                        <div class="location-choice__card__title">
+                            <button class="location-choice__card-btn">
+                                <a href="#zal3"><svg width="39" height="16" viewBox="0 0 39 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M38.7071 8.7071C39.0976 8.31658 39.0976 7.68341 38.7071 7.29289L32.3431 0.928929C31.9526 0.538405 31.3195 0.538405 30.9289 0.928929C30.5384 1.31945 30.5384 1.95262 30.9289 2.34314L36.5858 8L30.9289 13.6569C30.5384 14.0474 30.5384 14.6805 30.9289 15.0711C31.3195 15.4616 31.9526 15.4616 32.3431 15.0711L38.7071 8.7071ZM8.74228e-08 9L38 9L38 7L-8.74228e-08 7L8.74228e-08 9Z" fill="white" /></svg>
+                                </a>
+                            </button>
+                            <h3>Классический зал</h3>
+                        </div>
+                    </div>
+
+                    <div class="location-choice__card">
+                        <img src="../images/zal4img.jpg" alt="photo">
+                        <div class="location-choice__card__title">
+                            <button class="location-choice__card-btn">
+                                <a href="#zal4"><svg width="39" height="16" viewBox="0 0 39 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M38.7071 8.7071C39.0976 8.31658 39.0976 7.68341 38.7071 7.29289L32.3431 0.928929C31.9526 0.538405 31.3195 0.538405 30.9289 0.928929C30.5384 1.31945 30.5384 1.95262 30.9289 2.34314L36.5858 8L30.9289 13.6569C30.5384 14.0474 30.5384 14.6805 30.9289 15.0711C31.3195 15.4616 31.9526 15.4616 32.3431 15.0711L38.7071 8.7071ZM8.74228e-08 9L38 9L38 7L-8.74228e-08 7L8.74228e-08 9Z" fill="white" /></svg>
+                                </a>
+                            </button>
+
+                            <h3>фоновые залы</h3>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="container">
+            <div class="halls">
+                <div class="halls__container">
+                    <h3 id="zal1">Минималистичный зал</h3>
+                    <hr>
+                    <div class="halls__container__info">
+                        <div class="halls__container__photo">
+                            <img src="../images/zal1img1.jpg" alt="photo" class="halls__container__photo-margin">
+                            <div class="halls__container__photo-group">
+                                <img src="../images/zal1dopimg1.jpg" alt="photo">
+                                <img src="../images/zal1dopimg2.jpg" alt="photo">
+                                <img src="../images/zal1dopimg3.jpg" alt="photo">
+                                <img src="../images/zal1dopimg4.jpg" alt="photo">
+                                <img src="../images/zal1dopimg5.jpg" alt="photo">
+                            </div>
+                        </div>
+    
+                        <div class="halls__container__text">
+                            <p>Создайте стильные и элегантные снимки в нашем минималистичном зале. Чистые линии, простота и внимание к деталям — идеальный фон для того, чтобы ваша индивидуальность заиграла на фото.</p>
+                            
+                            <p>Чистые линии и простота: <br>
+                                Минималистичный зал создан с акцентом на чистоту форм и минимум декора, что позволяет сосредоточиться на главном — на вас.</p>
+                            <p>
+                                Гибкость в использовании: <br> 
+                                Этот зал идеально подходит для различных стилей съемки, от портретов до модных фотосессий</p>
+                            <p>Идеальное освещение: <br>
+                                Пространство оптимизировано для работы с естественным и искусственным светом</p>
+                            
+                            <button class="halls__container__text-btn"><svg width="39" height="16" viewBox="0 0 39 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M38.7071 8.7071C39.0976 8.31658 39.0976 7.68341 38.7071 7.29289L32.3431 0.928929C31.9526 0.538405 31.3195 0.538405 30.9289 0.928929C30.5384 1.31945 30.5384 1.95262 30.9289 2.34314L36.5858 8L30.9289 13.6569C30.5384 14.0474 30.5384 14.6805 30.9289 15.0711C31.3195 15.4616 31.9526 15.4616 32.3431 15.0711L38.7071 8.7071ZM8.74228e-08 9L38 9L38 7L-8.74228e-08 7L8.74228e-08 9Z" fill="white" />
+                              </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="halls__container2">
+                    <h3 id="zal2">Лофт-зал</h3>
+                    <hr>
+                    <div class="halls__container__info">
+                        
+                        <div class="halls__container__text">
+                            <p>Зал в стиле лофт — это пространство с уникальной атмосферой, где индустриальный стиль встречается с уютом.</p>
+                            
+                            <p>Открытые элементы: <br>
+                                Высокие потолки, кирпичные стены и металлические конструкции придают залу характер и создают оригинальный фон для съемки.</p>
+                            <p>Необычное освещение: <br>
+                                Лофт-зал идеально подходит для работы с контрастным светом, создавая драматичные и динамичные кадры.</p>
+                            <p>Широкие возможности для творчества: <br>
+                                Этот стиль позволяет сочетать различные элементы декора, от старинной мебели до современных аксессуаров, что дает простор для экспериментов с образами.</p>
+                            <button class="halls__container__text-btn"><svg width="39" height="16" viewBox="0 0 39 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M38.7071 8.7071C39.0976 8.31658 39.0976 7.68341 38.7071 7.29289L32.3431 0.928929C31.9526 0.538405 31.3195 0.538405 30.9289 0.928929C30.5384 1.31945 30.5384 1.95262 30.9289 2.34314L36.5858 8L30.9289 13.6569C30.5384 14.0474 30.5384 14.6805 30.9289 15.0711C31.3195 15.4616 31.9526 15.4616 32.3431 15.0711L38.7071 8.7071ZM8.74228e-08 9L38 9L38 7L-8.74228e-08 7L8.74228e-08 9Z" fill="white" />
+                              </svg>
+                            </button>
+                        </div>
+                        
+                        <div class="halls__container__photo">
+                            <img src="../images/zal2img1.jpg" alt="photo" class="halls__container__photo-margin">
+                            <div class="halls__container__photo-group">
+                                <img src="../images/zal2dop1.jpg" alt="photo">
+                                <img src="../images/zal2dop2.jpg" alt="photo">
+                                <img src="../images/zal2dop3.jpg" alt="photo">
+                                <img src="../images/zal2dop4.jpg" alt="photo">
+                                <img src="../images/zal2dop5.jpg" alt="photo">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="halls__container">
+                    <h3 id="zal3">Классический зал</h3>
+                    <hr>
+                    <div class="halls__container__info">
+                        <div class="halls__container__photo">
+                            <img src="../images/zal3img1.jpg" alt="photo" class="halls__container__photo-margin">
+                            <div class="halls__container__photo-group">
+                                <img src="../images/zal3dopimg1.jpg" alt="photo">
+                                <img src="../images/zal3dopimg2.jpg" alt="photo">
+                                <img src="../images/zal3dopimg3.jpg" alt="photo">
+                                <img src="../images/zal3dopimg4.jpg" alt="photo">
+                                <img src="../images/zal3dopimg5.jpg" alt="photo">
+                            </div>
+                        </div>
+    
+                        <div class="halls__container__text">
+                            <p>Классический зал — это элегантное пространство, идеально подходящее для создания timeless снимков.</p>
+                            
+                                <p>Классический интерьер: <br>
+                                    Стильный декор, мягкие тона и изысканная мебель создают атмосферу утонченности и гармонии./p>
+                                <p>Идеальный фон для портретов: <br> 
+                                    Прекрасно подходит для классических портретных съемок, где акцент на человеке, а не на окружении.</p>
+                                <p>Мягкое освещение: <br>
+                                    Зал спроектирован с учетом правильного освещения, что позволяет создавать мягкие, натуральные и выразительные изображения.</p>
+                            
+                                <button class="halls__container__text-btn">
+                                    <svg width="39" height="16" viewBox="0 0 39 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M38.7071 8.7071C39.0976 8.31658 39.0976 7.68341 38.7071 7.29289L32.3431 0.928929C31.9526 0.538405 31.3195 0.538405 30.9289 0.928929C30.5384 1.31945 30.5384 1.95262 30.9289 2.34314L36.5858 8L30.9289 13.6569C30.5384 14.0474 30.5384 14.6805 30.9289 15.0711C31.3195 15.4616 31.9526 15.4616 32.3431 15.0711L38.7071 8.7071ZM8.74228e-08 9L38 9L38 7L-8.74228e-08 7L8.74228e-08 9Z" fill="white" />
+                                    </svg>
+                                </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="halls__container2">
+                    <h3 id="zal4">Фоновые залы</h3>
+                    <hr>
+                    <div class="halls__container__info">
+                        
+                        <div class="halls__container__text">
+                            <p>Фоновые залы — идеальное решение для создания уникальных образов с акцентом на вашу индивидуальность./p>
+                            
+                            <p>Разнообразие фонов: <br>
+                                Мы предлагаем широкий выбор фонов — от однотонных до текстурированных и художественных, которые подойдут для любого стиля съемки.</p>
+                            <p>Гибкость в использовани: <br>
+                                Фоновые залы легко адаптируются под различные виды фотосессий, от корпоративных портретов до творческих проектов.</p>
+                            <p>Легкость в смене фона: <br>
+                                Быстрая смена фонов позволяет создавать разнообразные образы без необходимости менять локацию.</p>
+                            <button class="halls__container__text-btn"><svg width="39" height="16" viewBox="0 0 39 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M38.7071 8.7071C39.0976 8.31658 39.0976 7.68341 38.7071 7.29289L32.3431 0.928929C31.9526 0.538405 31.3195 0.538405 30.9289 0.928929C30.5384 1.31945 30.5384 1.95262 30.9289 2.34314L36.5858 8L30.9289 13.6569C30.5384 14.0474 30.5384 14.6805 30.9289 15.0711C31.3195 15.4616 31.9526 15.4616 32.3431 15.0711L38.7071 8.7071ZM8.74228e-08 9L38 9L38 7L-8.74228e-08 7L8.74228e-08 9Z" fill="white" />
+                              </svg>
+                            </button>
+                        </div>
+                        
+                        <div class="halls__container__photo">
+                            <img src="../images/zal4img1.jpg" alt="photo" class="halls__container__photo-margin">
+                            <div class="halls__container__photo-group">
+                                <img src="../images/zal4dop1.jpg" alt="photo">
+                                <img src="../images/zal4dop2.jpg" alt="photo">
+                                <img src="../images/zal4dop3.jpg" alt="photo">
+                                <img src="../images/zal4dop4.jpg" alt="photo">
+                                <img src="../images/zal4dop5.jpg" alt="photo">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                
+
+                
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__content">
+            <section class="footer__section">
+                <h3 class="footer__title">Покупателям</h3>
+                <ul class="footer__links">
+                    <li class="footer__link-item"><a href="#">Как сделать заказ</a></li>
+                    <li class="footer__link-item"><a href="#">Оплата и доставка</a></li>
+                    <li class="footer__link-item"><a href="#">Возврат товара</a></li>
+                    <li class="footer__link-item"><a href="#">Публичная оферта</a></li>
+                    <li class="footer__link-item"><a href="#">Политика конфиденциальности</a></li>
+                </ul>
+            </section>
+    
+            <section class="footer__section">
+                <h3 class="footer__title">Контакты</h3>
+                <ul class="footer__contacts">
+                    <li class="footer__contact-item"><i class="fas fa-phone"></i> +7 (812) 438-01-14</li>
+                    <li class="footer__contact-item"><i class="fas fa-envelope"></i> info@noirstudio.ru</li>
+                    <li class="footer__contact-item"><i class="fas fa-clock"></i> Пн-Вс 09:00-20:00</li>
+                    <li class="footer__contact-item"><i class="fas fa-map-marker-alt"></i> Санкт-Петербург, ул. Большая Конюшенная, 11</li>
+                </ul>
+            </section>
+    
+            <section class="footer__section">
+                <h3 class="footer__title">О нас</h3>
+                <ul class="footer__links">
+                    <li class="footer__link-item"><a href="#">Кто мы</a></li>
+                    <li class="footer__link-item"><a href="#">Реквизиты</a></li>
+                    <li class="footer__link-item"><a href="#">Отзывы</a></li>
+                </ul>
+            </section>
+    
+            <section class="footer__section">
+                <h3 class="footer__title">Партнерам</h3>
+                <ul class="footer__links">
+                    <li class="footer__link-item"><a href="#">Заявка на сотрудничество</a></li>
+                    <li class="footer__link-item"><a href="#">Услуги</a></li>
+                </ul>
+            </section>
+    
+            <section class="footer__section">
+                <h3 class="footer__title">Мы в соцсетях</h3>
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link"><img src="../images/instagram.svg" alt="Instagram" loading="lazy"></a>
+                    <a href="#" class="footer__social-link"><img src="../images/facebook.svg" alt="Facebook" loading="lazy"></a>
+                    <a href="#" class="footer__social-link"><img src="../images/twitter.svg" alt="Twitter" loading="lazy"></a>
+                    <a href="#" class="footer__social-link"><img src="../images/googlglgl.svg" alt="Google" loading="lazy"></a>
+                </div>
+    
+                <h4 class="footer__payment-title">Мы принимаем</h4>
+                <div class="footer__payment-methods">
+                    <img src="../images/visa.svg" alt="Visa" class="footer__payment-method" loading="lazy">
+                    <img src="../images/paypal.svg" alt="PayPal" class="footer__payment-method" loading="lazy">
+                    <img src="../images/master_card (1).svg" alt="MasterCard" class="footer__payment-method" loading="lazy">
+                    <img src="../images/union_pay.svg" alt="Union_pay" class="footer__payment-method" loading="lazy">
+                </div>
+            </section>
+        </div>
+    
+        <div class="footer__copyright">
+            <p class="footer__copyright-text">© Copyright 2020 Noir Studio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
