@@ -188,11 +188,6 @@
     right: 200px;
 }
 
-/* Адаптивность для мобильных */
-@media (max-width: 768px) {
-
-}
-
 /* Стили для фильтров */
 .filter-section {
     margin: 20px 0;

@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Фотостудия</title>
     <link rel="stylesheet" href="./../css/style.css">
-    <link rel="stylesheet" href="./../css/style4.css">
+    <link rel="stylesheet" href="../css/gallery.css">
     <link rel="stylesheet" href="./../css/adaptive.css">
+    <link rel="preload" as="image" href="./../images/pexels-derice-jason-fahnkow-745824-1595244.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
 <header class="header">
@@ -19,17 +19,14 @@
 
         <!-- Основное меню -->
         <ul class="header__menu" id="mainMenu">
-            <li class="header__menu-item"><a href="./../index.html">Главная</a></li>
-            <li class="header__menu-item"><a href="./index2.html">Услуги</a></li>
-            <li class="header__menu-item"><a href="./index3.html">Залы</a></li>
+            <li class="header__menu-item"><a href="../main.html">Главная</a></li>
+            <li class="header__menu-item"><a href="services.html">Услуги</a></li>
+            <li class="header__menu-item"><a href="halls.html">Залы</a></li>
             <li class="header__menu-item"><a href="#">Галерея</a></li>
-            <li class="header__menu-item"><a href="./index5.html">Контакты</a></li>
+            <li class="header__menu-item"><a href="contacts.html">Контакты</a></li>
         </ul>
-
-        <!-- Кнопка -->
         <button class="header__btn">Получить консультацию</button>
-
-        <!-- Бургер-иконка (только для мобильных) -->
+        <!-- Бургер -->
         <button class="burger-menu" aria-label="Открыть меню" id="burgerBtn">
             <span class="burger-menu__line"></span>
             <span class="burger-menu__line"></span>
@@ -37,11 +34,11 @@
         </button>
     </nav>
 
-    <section class="header__discount">
+    <div class="header__discount">
         <p class="header__discount-item">Скидки на летний сезон</p><hr>
         <p class="header__discount-item">10% скидка на покупку от 20 000 руб. по коду Summer10</p><hr>
         <p class="header__discount-item">5% скидка на покупку от 50 000 руб. по коду Summer5</p>
-    </section>
+    </div>
 </header>
     
     <main class="main">
@@ -53,7 +50,7 @@
             <button class="main__banner-btn">Получить консультацию</button>
         </section>
 
-        <section class="photogallery">
+        <div class="photogallery">
             <div class="container">
                 <div class="filter-wrapper">
                     <button class="filter-toggle-btn">Фильтры ▼</button>
@@ -100,7 +97,7 @@
                         <p>Следите за нашими фотоработами и акциями!</p>
 
                         <div class="instagram__gallery__photo" id="gallery-container">
-                            <!-- сюда добавлять фото -->
+                            <!-- сюда добавляются фото -->
                         </div>
 
                         <div class="gallery-controls">
@@ -109,13 +106,13 @@
                     </div>
                 </article>
             </div>
-        </section>
+        </div>
 
         <!--Фотографии на весь экран с кнопками прокрутки -->
         <div class="fullscreen-overlay" id="fullscreen-overlay">
             <button class="close-fullscreen" id="close-fullscreen">×</button>
             <button class="nav-arrow prev-arrow" id="prev-arrow">❮</button>
-            <img src="" alt="Просмотр фотографии" class="fullscreen-image" id="fullscreen-image">
+            <img src="./../images/portrait_photo1.jpg" alt="Просмотр фотографии" class="fullscreen-image" id="fullscreen-image">
             <button class="nav-arrow next-arrow" id="next-arrow">❯</button>
         </div>
     </main>
@@ -174,13 +171,12 @@
                 <div class="footer__payment-methods">
                     <img src="../images/visa.svg" alt="Visa" class="footer__payment-method" loading="lazy">
                     <img src="../images/paypal.svg" alt="PayPal" class="footer__payment-method" loading="lazy">
-                    <img src="../images/master_card (1).svg" alt="MasterCard" class="footer__payment-method" loading="lazy">
+                    <img src="../images/master_card.svg" alt="MasterCard" class="footer__payment-method" loading="lazy">
                     <img src="../images/union_pay.svg" alt="Union_pay" class="footer__payment-method" loading="lazy">
                 </div>
             </section>
         </div>
     </footer>
-
     <script src="./../js/script.js"></script>
 </body>
 </html>

@@ -2,11 +2,15 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <title>Фотостудия</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Контакты фотостудии NOIR Studio — адрес, телефон, часы работы">
+    <title>NOIR Studio — Портфолио</title>
     <link rel="stylesheet" href="./../css/style.css">
-    <link rel="stylesheet" href="./../css/style2.css">
+    <link rel="stylesheet" href="../css/services.css">
     <link rel="stylesheet" href="./../css/adaptive.css">
+    <link rel="preload" as="image" href="./../images/pexels-derice-jason-fahnkow-745824-1595244.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
 <header class="header">
@@ -16,11 +20,11 @@
 
         <!-- Основное меню -->
         <ul class="header__menu" id="mainMenu">
-            <li class="header__menu-item"><a href="./../index.html">Главная</a></li>
+            <li class="header__menu-item"><a href="../main.html">Главная</a></li>
             <li class="header__menu-item"><a href="#">Услуги</a></li>
-            <li class="header__menu-item"><a href="./index3.html">Залы</a></li>
-            <li class="header__menu-item"><a href="./index4.html">Галерея</a></li>
-            <li class="header__menu-item"><a href="./index5.html">Контакты</a></li>
+            <li class="header__menu-item"><a href="./halls.html">Залы</a></li>
+            <li class="header__menu-item"><a href="gallery.html">Галерея</a></li>
+            <li class="header__menu-item"><a href="contacts.html">Контакты</a></li>
         </ul>
 
         <!-- Кнопка -->
@@ -34,11 +38,11 @@
         </button>
     </nav>
 
-    <section class="header__discount">
+    <div class="header__discount">
         <p class="header__discount-item">Скидки на летний сезон</p><hr>
         <p class="header__discount-item">10% скидка на покупку от 20 000 руб. по коду Summer10</p><hr>
         <p class="header__discount-item">5% скидка на покупку от 50 000 руб. по коду Summer5</p>
-    </section>
+    </div>
 </header>
     
     <main class="main">
@@ -59,9 +63,9 @@
                 <hr class="service-card__divider">
 
                 <div class="service-card__gallery">
-                    <img src="../images/portrait_photography.jpg" alt="Фотосессия" class="service-card__photo service-card__photo--1">
-                    <img src="../images/fashion_photography.jpg" alt="Фотосессия" class="service-card__photo service-card__photo--2">
-                    <img src="../images/family_photography.jpg" alt="Фотосессия" class="service-card__photo service-card__photo--3">
+                    <img src="./../images/portrait_photography.jpg" alt="Фотосессия" class="service-card__photo service-card__photo--1">
+                    <img src="./../images/fashion_photography.jpg" alt="Фотосессия" class="service-card__photo service-card__photo--2">
+                    <img src="./../images/family_photography.jpg" alt="Фотосессия" class="service-card__photo service-card__photo--3">
                 </div>
 
                 <div class="service-card__content">
@@ -95,9 +99,9 @@
                 <hr class="service-card__divider">
 
                 <div class="service-card__gallery">
-                    <img src="../images/image_photo_session.jpg" alt="Контент для брендов" class="service-card__photo service-card__photo--1">
-                    <img src="../images/catalog_survey.jpg" alt="Контент для брендов" class="service-card__photo service-card__photo--2">
-                    <img src="../images/frame_ for_cellular_networks.jpg" alt="Контент для брендов" class="service-card__photo service-card__photo--3">
+                    <img src="./../images/image_photo_session.jpg" alt="Контент для брендов" class="service-card__photo service-card__photo--1">
+                    <img src="./../images/catalog_survey.jpg" alt="Контент для брендов" class="service-card__photo service-card__photo--2">
+                    <img src="./../images/frame_for_cellular_networks.jpg" alt="Контент для брендов" class="service-card__photo service-card__photo--3">
                 </div>
 
                 <div class="service-card__content">
@@ -131,9 +135,9 @@
                 <hr class="service-card__divider">
 
                 <div class="service-card__gallery">
-                    <img src="../images/concerts_and_festivals.jpg" alt="Съемка мероприятий" class="service-card__photo service-card__photo--1">
-                    <img src="../images/weddings_and_anniversaries.jpg" alt="Съемка мероприятий" class="service-card__photo service-card__photo--2">
-                    <img src="../images/exhibitions_and_presentations.jpg" alt="Съемка мероприятий" class="service-card__photo service-card__photo--3">
+                    <img src="./../images/concerts_and_festivals.jpg" alt="Съемка мероприятий" class="service-card__photo service-card__photo--1">
+                    <img src="./../images/weddings_and_anniversaries.jpg" alt="Съемка мероприятий" class="service-card__photo service-card__photo--2">
+                    <img src="./../images/exhibitions_and_presentations.jpg" alt="Съемка мероприятий" class="service-card__photo service-card__photo--3">
                 </div>
 
                 <div class="service-card__content">
@@ -174,7 +178,7 @@
                 <div class="new-card">
                     <div class="new-card__image-box">
                         <span class="new-card__badge">NEW</span>
-                        <img src="../images/new.jpg" alt="Новые фотозоны" class="new-card__image">
+                        <img src="./../images/new.jpg" alt="Новые фотозоны" class="new-card__image">
                     </div>
                     <h3 class="new-card__name">Новые фотозоны</h3>
                     <p class="new-card__description">Мы постоянно обновляем интерьер нашей студии</p>
@@ -183,7 +187,7 @@
                 <div class="new-card">
                     <div class="new-card__image-box">
                         <span class="new-card__badge">NEW</span>
-                        <img src="../images/new_1.jpg" alt="Обновленное оборудование" class="new-card__image">
+                        <img src="./../images/new_1.jpg" alt="Обновленное оборудование" class="new-card__image">
                     </div>
                     <h4 class="new-card__name">Обновленное оборудование</h4>
                     <p class="new-card__description">Новые камеры и световые приборы для лучшего качества</p>
@@ -192,7 +196,7 @@
                 <div class="new-card">
                     <div class="new-card__image-box">
                         <span class="new-card__badge">NEW</span>
-                        <img src="../images/new_2.jpg" alt="Специальные предложения" class="new-card__image">
+                        <img src="./../images/new_2.jpg" alt="Специальные предложения" class="new-card__image">
                     </div>
                     <h4 class="new-card__name">Специальные предложения</h4>
                     <p class="new-card__description">Акции и скидки на фотосессии</p>
@@ -201,7 +205,7 @@
                 <div class="new-card">
                     <div class="new-card__image-box">
                         <span class="new-card__badge">NEW</span>
-                        <img src="../images/new_3.jpg" alt="Коллаборации" class="new-card__image">
+                        <img src="./../images/new_3.jpg" alt="Коллаборации" class="new-card__image">
                     </div>
                     <h4 class="new-card__name">Коллаборации</h4>
                     <p class="new-card__description">Совместные проекты с брендами и стилистами</p>
@@ -338,7 +342,7 @@
                 <div class="footer__payment-methods">
                     <img src="../images/visa.svg" alt="Visa" class="footer__payment-method" loading="lazy">
                     <img src="../images/paypal.svg" alt="PayPal" class="footer__payment-method" loading="lazy">
-                    <img src="../images/master_card (1).svg" alt="MasterCard" class="footer__payment-method" loading="lazy">
+                    <img src="../images/master_card.svg" alt="MasterCard" class="footer__payment-method" loading="lazy">
                     <img src="../images/union_pay.svg" alt="Union_pay" class="footer__payment-method" loading="lazy">
                 </div>
             </section>

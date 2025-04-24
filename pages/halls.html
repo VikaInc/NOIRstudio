@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Фотостудия</title>
     <link rel="stylesheet" href="./../css/style.css">
-    <link rel="stylesheet" href="./../css/style3.css">
-
+    <link rel="stylesheet" href="../css/halls.css">
     <link rel="stylesheet" href="./../css/adaptive.css">
+    <link rel="preload" as="image" href="./../images/pexels-derice-jason-fahnkow-745824-1595244.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
 <header class="header">
@@ -20,11 +19,11 @@
 
         <!-- Основное меню -->
         <ul class="header__menu" id="mainMenu">
-            <li class="header__menu-item"><a href="./../index.html">Главная</a></li>
-            <li class="header__menu-item"><a href=" ./index2.html">Услуги</a></li>
+            <li class="header__menu-item"><a href="../main.html">Главная</a></li>
+            <li class="header__menu-item"><a href="services.html">Услуги</a></li>
             <li class="header__menu-item"><a href="#">Залы</a></li>
-            <li class="header__menu-item"><a href="./index4.html">Галерея</a></li>
-            <li class="header__menu-item"><a href="./index5.html">Контакты</a></li>
+            <li class="header__menu-item"><a href="gallery.html">Галерея</a></li>
+            <li class="header__menu-item"><a href="contacts.html">Контакты</a></li>
         </ul>
 
         <!-- Кнопка -->
@@ -38,11 +37,11 @@
         </button>
     </nav>
 
-    <section class="header__discount">
+    <div class="header__discount">
         <p class="header__discount-item">Скидки на летний сезон</p><hr>
         <p class="header__discount-item">10% скидка на покупку от 20 000 руб. по коду Summer10</p><hr>
         <p class="header__discount-item">5% скидка на покупку от 50 000 руб. по коду Summer5</p>
-    </section>
+    </div>
 </header>
     <main class="main">
         <section class="main__banner">
@@ -61,23 +60,19 @@
                     <div class="location-choice__card">
                         <img src="../images/zal1img.jpg" alt="photo">
                         <div class="location-choice__card__title">
-                            <button class="location-choice__card-btn">
-                                <a href="#zal1"><svg width="39" height="16" viewBox="0 0 39 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M38.7071 8.7071C39.0976 8.31658 39.0976 7.68341 38.7071 7.29289L32.3431 0.928929C31.9526 0.538405 31.3195 0.538405 30.9289 0.928929C30.5384 1.31945 30.5384 1.95262 30.9289 2.34314L36.5858 8L30.9289 13.6569C30.5384 14.0474 30.5384 14.6805 30.9289 15.0711C31.3195 15.4616 31.9526 15.4616 32.3431 15.0711L38.7071 8.7071ZM8.74228e-08 9L38 9L38 7L-8.74228e-08 7L8.74228e-08 9Z" fill="white" /></svg>
-                                </a>
-                            </button>
+                            <a href="#zal1" class="location-choice__card-btn"><svg width="39" height="16" viewBox="0 0 39 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M38.7071 8.7071C39.0976 8.31658 39.0976 7.68341 38.7071 7.29289L32.3431 0.928929C31.9526 0.538405 31.3195 0.538405 30.9289 0.928929C30.5384 1.31945 30.5384 1.95262 30.9289 2.34314L36.5858 8L30.9289 13.6569C30.5384 14.0474 30.5384 14.6805 30.9289 15.0711C31.3195 15.4616 31.9526 15.4616 32.3431 15.0711L38.7071 8.7071ZM8.74228e-08 9L38 9L38 7L-8.74228e-08 7L8.74228e-08 9Z" fill="white" /></svg>
+                            </a>
                             <h3>Минималистичный зал</h3>
                         </div>
                     </div>
 
                     <div class="location-choice__card">
-                        <img src="../images/zal2img.jpg" alt="photo">
+                        <img src="./../images/zal2img.jpg" alt="photo">
                         <div class="location-choice__card__title">
-                            <button class="location-choice__card-btn">
-                                <a href="#zal2"><svg width="39" height="16" viewBox="0 0 39 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <a href="#zal2" class="location-choice__card-btn"><svg width="39" height="16" viewBox="0 0 39 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M38.7071 8.7071C39.0976 8.31658 39.0976 7.68341 38.7071 7.29289L32.3431 0.928929C31.9526 0.538405 31.3195 0.538405 30.9289 0.928929C30.5384 1.31945 30.5384 1.95262 30.9289 2.34314L36.5858 8L30.9289 13.6569C30.5384 14.0474 30.5384 14.6805 30.9289 15.0711C31.3195 15.4616 31.9526 15.4616 32.3431 15.0711L38.7071 8.7071ZM8.74228e-08 9L38 9L38 7L-8.74228e-08 7L8.74228e-08 9Z" fill="white" /></svg>
                                 </a>
-                            </button>
                             <h3>Лофт-зал</h3>
                         </div>
                     </div>
@@ -85,11 +80,9 @@
                     <div class="location-choice__card">
                         <img src="../images/zal3img.jpg" alt="photo">
                         <div class="location-choice__card__title">
-                            <button class="location-choice__card-btn">
-                                <a href="#zal3"><svg width="39" height="16" viewBox="0 0 39 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <a href="#zal3" class="location-choice__card-btn"><svg width="39" height="16" viewBox="0 0 39 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M38.7071 8.7071C39.0976 8.31658 39.0976 7.68341 38.7071 7.29289L32.3431 0.928929C31.9526 0.538405 31.3195 0.538405 30.9289 0.928929C30.5384 1.31945 30.5384 1.95262 30.9289 2.34314L36.5858 8L30.9289 13.6569C30.5384 14.0474 30.5384 14.6805 30.9289 15.0711C31.3195 15.4616 31.9526 15.4616 32.3431 15.0711L38.7071 8.7071ZM8.74228e-08 9L38 9L38 7L-8.74228e-08 7L8.74228e-08 9Z" fill="white" /></svg>
                                 </a>
-                            </button>
                             <h3>Классический зал</h3>
                         </div>
                     </div>
@@ -97,12 +90,9 @@
                     <div class="location-choice__card">
                         <img src="../images/zal4img.jpg" alt="photo">
                         <div class="location-choice__card__title">
-                            <button class="location-choice__card-btn">
-                                <a href="#zal4"><svg width="39" height="16" viewBox="0 0 39 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M38.7071 8.7071C39.0976 8.31658 39.0976 7.68341 38.7071 7.29289L32.3431 0.928929C31.9526 0.538405 31.3195 0.538405 30.9289 0.928929C30.5384 1.31945 30.5384 1.95262 30.9289 2.34314L36.5858 8L30.9289 13.6569C30.5384 14.0474 30.5384 14.6805 30.9289 15.0711C31.3195 15.4616 31.9526 15.4616 32.3431 15.0711L38.7071 8.7071ZM8.74228e-08 9L38 9L38 7L-8.74228e-08 7L8.74228e-08 9Z" fill="white" /></svg>
-                                </a>
-                            </button>
-
+                            <a href="#zal4"><svg width="39" height="16" viewBox="0 0 39 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M38.7071 8.7071C39.0976 8.31658 39.0976 7.68341 38.7071 7.29289L32.3431 0.928929C31.9526 0.538405 31.3195 0.538405 30.9289 0.928929C30.5384 1.31945 30.5384 1.95262 30.9289 2.34314L36.5858 8L30.9289 13.6569C30.5384 14.0474 30.5384 14.6805 30.9289 15.0711C31.3195 15.4616 31.9526 15.4616 32.3431 15.0711L38.7071 8.7071ZM8.74228e-08 9L38 9L38 7L-8.74228e-08 7L8.74228e-08 9Z" fill="white" /></svg>
+                            </a>
                             <h3>фоновые залы</h3>
                         </div>
                     </div>
@@ -119,11 +109,11 @@
                         <div class="halls__container__photo">
                             <img src="../images/zal1img1.jpg" alt="photo" class="halls__container__photo-margin">
                             <div class="halls__container__photo-group">
-                                <img src="../images/zal1dopimg1.jpg" alt="photo">
-                                <img src="../images/zal1dopimg2.jpg" alt="photo">
-                                <img src="../images/zal1dopimg3.jpg" alt="photo">
-                                <img src="../images/zal1dopimg4.jpg" alt="photo">
-                                <img src="../images/zal1dopimg5.jpg" alt="photo">
+                                <img src="./../images/zal1dopimg1.jpg" alt="photo">
+                                <img src="./../images/zal1dopimg2.jpg" alt="photo">
+                                <img src="./../images/zal1dopimg3.jpg" alt="photo">
+                                <img src="./../images/zal1dopimg4.jpg" alt="photo">
+                                <img src="./../images/zal1dopimg5.jpg" alt="photo">
                             </div>
                         </div>
     
@@ -247,10 +237,6 @@
 
                     </div>
                 </div>
-
-                
-
-                
             </div>
         </div>
     </main>
@@ -307,7 +293,7 @@
                 <div class="footer__payment-methods">
                     <img src="../images/visa.svg" alt="Visa" class="footer__payment-method" loading="lazy">
                     <img src="../images/paypal.svg" alt="PayPal" class="footer__payment-method" loading="lazy">
-                    <img src="../images/master_card (1).svg" alt="MasterCard" class="footer__payment-method" loading="lazy">
+                    <img src="../images/master_card.svg" alt="MasterCard" class="footer__payment-method" loading="lazy">
                     <img src="../images/union_pay.svg" alt="Union_pay" class="footer__payment-method" loading="lazy">
                 </div>
             </section>

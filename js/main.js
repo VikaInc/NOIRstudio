@@ -54,16 +54,16 @@ window.addEventListener('click', function(e) {
     }
 });
 
-// Обработка формы (заменить на реальную отправку)
-// document.querySelector('.contact-form').addEventListener('submit', function(e) {
-//     e.preventDefault();
-//     alert('Спасибо! Мы скоро с вами свяжемся.');
-//     contactModal.style.display = 'none';
-//     document.body.style.overflow = 'auto';
-//     this.reset();
-// });
-// Обнови JavaScript код:
-// В обработчике успешной отправки формы:
+//Обработка формы (заменить на реальную отправку)
+document.querySelector('.contact-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    alert('Спасибо! Мы скоро с вами свяжемся.');
+    contactModal.style.display = 'none';
+    document.body.style.overflow = 'auto';
+    this.reset();
+});
+
+
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('subscribeForm');
     const emailInput = document.getElementById('emailInput');
@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Валидация при вводе (опционально)
+    // Валидация при вводе
     emailInput.addEventListener('input', function() {
         const email = emailInput.value.trim();
         if (email && !validateEmail(email)) {

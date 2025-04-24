@@ -2,13 +2,15 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0>
-    <meta name="description" content="Портфолио фотостудии NOIR Studio — услуги, залы, галерея">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Контакты фотостудии NOIR Studio — адрес, телефон, часы работы">
     <title>NOIR Studio — Портфолио</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/adaptive.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="preload" as="image" href="./images/pexels-derice-jason-fahnkow-745824-1595244.jpg">
-    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
 <header class="header">
@@ -19,10 +21,10 @@
         <!-- Основное меню -->
         <ul class="header__menu" id="mainMenu">
             <li class="header__menu-item"><a href="#">Главная</a></li>
-            <li class="header__menu-item"><a href="pages/index2.html">Услуги</a></li>
-            <li class="header__menu-item"><a href="pages/index3.html">Залы</a></li>
-            <li class="header__menu-item"><a href="pages/index4.html">Галерея</a></li>
-            <li class="header__menu-item"><a href="pages/index5.html">Контакты</a></li>
+            <li class="header__menu-item"><a href="pages/services.html">Услуги</a></li>
+            <li class="header__menu-item"><a href="pages/halls.html">Залы</a></li>
+            <li class="header__menu-item"><a href="pages/gallery.html">Галерея</a></li>
+            <li class="header__menu-item"><a href="pages/contacts.html">Контакты</a></li>
         </ul>
 
         <!-- Кнопка -->
@@ -36,11 +38,11 @@
         </button>
     </nav>
 
-    <section class="header__discount">
+    <div class="header__discount">
         <p class="header__discount-item">Скидки на летний сезон</p><hr>
         <p class="header__discount-item">10% скидка на покупку от 20 000 руб. по коду Summer10</p><hr>
         <p class="header__discount-item">5% скидка на покупку от 50 000 руб. по коду Summer5</p>
-    </section>
+    </div>
 </header>
 
 <main class="main">
@@ -64,7 +66,7 @@
                         <img src="images/portret2.jpg" alt="Портретная съемка" loading="lazy">
                         <img src="images/portret1.jpg" alt="Портретная съемка" loading="lazy">
                     </div>
-                    <p class="main__direction-name">портретная <br> съемка</p>
+                    <h3 class="main__direction-name">портретная <br> съемка</h3>
                     <hr class="main__direction-line">
                 </article>
 
@@ -73,7 +75,7 @@
                         <img src="images/pexels-miami302-16036376.jpg" alt="Семейные фотосессии" loading="lazy">
                         <img src="images/pexels-olya-afanasyeva-192436627-25724497.jpg" alt="Семейные фотосессии" loading="lazy">
                     </div>
-                    <p class="main__direction-name">семейные <br> фотосессии<p>
+                    <h3 class="main__direction-name">семейные <br> фотосессии</h3>
                     <hr class="main__direction-line">
                 </article>
 
@@ -82,7 +84,7 @@
                         <img src="images/beauty1.jpg" alt="Фэшн и beauty" loading="lazy">
                         <img src="images/beauty2.jpg" alt="Фэшн и beauty" loading="lazy">
                     </div>
-                    <p class="main__direction-name">Фэшн <br> и beauty<p>
+                    <h3 class="main__direction-name">Фэшн <br> и beauty</h3>
                     <hr class="main__direction-line">
                 </article>
 
@@ -91,11 +93,11 @@
                         <img src="images/predmet.jpg" alt="Предметная съемка" loading="lazy">
                         <img src="images/predmet2.jpg" alt="Предметная съемка" loading="lazy">
                     </div>
-                    <p class="main__direction-name">Предметная <br> съемка <p>
+                    <h3 class="main__direction-name">Предметная <br> съемка </h3>
                     <hr class="main__direction-line">
                 </article>
             </div>
-            <button class="main__directions-btn" aria-label="Перейти в галерею"><a href="pages/index4.html">Перейти в галерею</a> </button>
+            <a class="main__directions-btn" href="pages/gallery.html">Перейти в галерею</a>
         </section>
     </div>
 
@@ -134,7 +136,7 @@
                 <img src="images/about_photo-1.jpg" alt="Фото студии" class="about__gallery-photo about__gallery-photo--third" loading="lazy">
             </div>
 
-            <section class="about__info-cards">
+            <div class="about__info-cards">
                 <article class="about__info-card about__info-card--left">
                     <h3 class="about__info-title">
                         <span class="about__info-title-highlight">Кто</span>
@@ -170,7 +172,7 @@
                         Съемка — команда профессионалов поможет вам чувствовать себя уверенно.
                     </p>
                 </article>
-            </section>
+            </div>
         </section>
     </div>
 
@@ -269,7 +271,7 @@
             <div class="footer__payment-methods">
                 <img src="images/visa.svg" alt="Visa" class="footer__payment-method" loading="lazy">
                 <img src="images/paypal.svg" alt="PayPal" class="footer__payment-method" loading="lazy">
-                <img src="images/master_card (1).svg" alt="MasterCard" class="footer__payment-method" loading="lazy">
+                <img src="images/master_card.svg" alt="MasterCard" class="footer__payment-method" loading="lazy">
                 <img src="images/union_pay.svg" alt="Union_pay" class="footer__payment-method" loading="lazy">
             </div>
         </section>

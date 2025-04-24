@@ -1,0 +1,125 @@
+.contacts {
+    padding: 100px 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.contacts__content {
+    position: relative;
+    z-index: 1;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.contacts__title {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #dadada;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.contacts__title span {
+    display: block;
+}
+
+.contacts__title span:first-child {
+    color: #050505;
+    text-shadow: 1px 1px 0 #eee, -1px -1px 0 #eee, 1px -1px 0 #eee, -1px 1px 0 #eee;
+}
+
+.contacts__divider {
+    border: 1px solid #dadada;
+    width: 350px;
+    height: 0;
+    margin: 20px 0;
+}
+
+.contacts__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.contact-card {
+    background: rgba(10, 10, 10, 0.7);
+    border: 1px solid #333;
+    padding: 40px 30px;
+    transition: all 0.4s ease;
+    backdrop-filter: blur(5px);
+}
+
+.contact-card:hover {
+    border-color: #4EB0BC;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(78, 176, 188, 0.2);
+}
+
+.contact-card__icon {
+    font-size: 2.5em;
+    color: #4EB0BC;
+    margin-bottom: 20px;
+}
+
+.contact-card__title {
+    font-size: 24px;
+    color: #dadada;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.contact-card__info {
+    font-size: 16px;
+    color: #aaa;
+    line-height: 1.6;
+}
+
+.contact-card__info a {
+    color: #aaa;
+    text-decoration: none;
+    transition: color 0.3s;
+    display: block;
+    margin-top: 5px;
+}
+
+.contact-card__info a:hover {
+    color: #4EB0BC;
+}
+
+.contacts__map {
+    /*margin-top: 80px;*/
+    /*height: 500px;*/
+    /*border: 1px solid #333;*/
+    /*transition: all 0.4s ease;*/
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    animation: fadeIn 2s forwards; animation-delay: 1.5s;
+}
+
+.contacts__map iframe {
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgba(255,255,255,0.1);
+    transition: transform 0.5s;
+}
+.contacts__map iframe:hover {
+    transform: scale(1.03);
+    border-color: #4EB0BC;
+    box-shadow: 0 10px 30px rgba(78, 176, 188, 0.2);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

@@ -630,6 +630,24 @@
         width: 80%;
         margin: 10px auto;
     }
+    .contacts {
+        padding: 60px 20px;
+    }
+
+    .contacts__title {
+        font-size: 42px;
+    }
+
+    .contacts__divider {
+        width: 200px;
+    }
+
+    .contacts__map {
+        height: 350px;
+    }
+    .new-items__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 @media (max-width: 576px) {
     /* Общие */
@@ -829,6 +847,9 @@
     .filter-dropdown {
         top: 110px;
         right: 0;
+    }
+    .new-items__grid {
+        grid-template-columns: 1fr;
     }
 }
 

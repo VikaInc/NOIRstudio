@@ -62,6 +62,13 @@
     text-shadow: 1px 1px 1px #000;
 }
 .location-choice__card-btn {
+    display: inline-flex; /* для центрирования SVG */
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none; /* убрать подчёркивание */
+    cursor: pointer;
+
     border: 2px solid #dadada;
     width: 100px;
     height: 50px;
@@ -72,6 +79,7 @@
     color: #dadada;
     margin-top: 50px;
 
+    transition: background-color 0.3s ease;
 }
 .location-choice__card-btn:hover {
     background: #4eb0bc;
