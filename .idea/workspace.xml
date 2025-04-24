@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c161b692-e8f3-41ab-9357-5a10ca2f17fb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/halls.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/halls.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/services.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2uiSD17o0BzxBxNvN54rMnngqBd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index4.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.main.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Виктория/Desktop/курсовая сайтх2&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.notifications&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="JavaScript Debug.main.html">
+    <configuration name="index4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/курсовая сайтх2/page/index4.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="main.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/курсовая сайтх2/main.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.main.html" />
+        <item itemvalue="JavaScript Debug.index4.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-WS-251.23774.424" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c161b692-e8f3-41ab-9357-5a10ca2f17fb" name="Changes" comment="" />
+      <created>1742729778575</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742729778575</updated>
+      <workItem from="1742729779689" duration="288000" />
+      <workItem from="1742797698489" duration="888000" />
+      <workItem from="1742900810491" duration="6850000" />
+      <workItem from="1743110038401" duration="11432000" />
+      <workItem from="1743267285523" duration="2248000" />
+      <workItem from="1743270368237" duration="3188000" />
+      <workItem from="1743327227453" duration="21426000" />
+      <workItem from="1743403523010" duration="8199000" />
+      <workItem from="1743483612394" duration="165000" />
+      <workItem from="1743483802077" duration="71000" />
+      <workItem from="1743483874480" duration="70000" />
+      <workItem from="1743658511065" duration="7785000" />
+      <workItem from="1743786470365" duration="5422000" />
+      <workItem from="1743846685622" duration="21487000" />
+      <workItem from="1744452337584" duration="32344000" />
+      <workItem from="1744603765247" duration="10754000" />
+      <workItem from="1744711186517" duration="1304000" />
+      <workItem from="1744791698240" duration="24516000" />
+      <workItem from="1744965893600" duration="2184000" />
+      <workItem from="1745053598245" duration="166000" />
+      <workItem from="1745053849057" duration="380000" />
+      <workItem from="1745054291551" duration="29651000" />
+      <workItem from="1745415243021" duration="8044000" />
+      <workItem from="1745478122959" duration="1709000" />
+      <workItem from="1745480270315" duration="1783000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/script1.js</url>
+          <line>133</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
