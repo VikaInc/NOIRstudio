@@ -224,11 +224,33 @@ function openFullscreen(index) {
     fullscreenImage.src = currentPhotos[index].src;
     fullscreenOverlay.style.display = 'flex';
     document.body.style.overflow = 'hidden';
+
+    // Добавляем обработчики для мобильных устройств
+    if (window.innerWidth <= 768) {
+        fullscreenImage.onclick = function(e) {
+            const clickX = e.clientX;
+            const screenWidth = window.innerWidth;
+
+            // Если клик в левой части экрана - предыдущее фото
+            if (clickX < screenWidth / 2) {
+                navigate(-1);
+            }
+            // Если клик в правой части экрана - следующее фото
+            else {
+                navigate(1);
+            }
+        };
+    }
 }
 
 function closeFullscreenHandler() {
     fullscreenOverlay.style.display = 'none';
     document.body.style.overflow = 'auto';
+
+    // Удаляем обработчики для мобильных устройств
+    if (window.innerWidth <= 768) {
+        fullscreenImage.onclick = null;
+    }
 }
 
 function navigate(direction) {

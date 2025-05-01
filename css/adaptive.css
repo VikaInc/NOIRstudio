@@ -567,6 +567,10 @@
     .new-items__grid {
         grid-template-columns: repeat(2, 1fr);
     }
+    #prev-arrow,
+    #next-arrow {
+        display: none !important;
+    }
 }
 @media (max-width: 576px) {
     /* Общие */
