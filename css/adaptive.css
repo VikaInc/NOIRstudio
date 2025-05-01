@@ -99,43 +99,6 @@
 
 }
 
-@media (min-width: 768px) {
-    .main__directions {
-        margin-top: 80px;
-        padding: 0 30px;
-    }
-
-    .main__directions-title {
-        text-align: end;
-        line-height: 60%;
-    }
-
-    .main__directions-title span:first-child {
-        margin-right: 150px;
-    }
-
-    .main__directions-divider {
-        display: block;
-        margin-top: 10px;
-        margin-right: 0;
-        margin-left: auto;
-    }
-
-    .main__direction-image {
-        height: 240px;
-    }
-
-    .main__direction-name {
-        font-size: 17px;
-    }
-}
-
-
-
-/*Адаптив под мобилки*/
-
-
-
 /* Адаптив для мобильных */
 @media (max-width: 768px) {
     .header__menu {
@@ -155,6 +118,7 @@
     }
 
     .header__menu.active {
+        position: absolute;
         right: 0;
     }
 
@@ -290,8 +254,8 @@
     }
 
     /*Направления*/
-    .main__directions-title {
-        font-size: 45px;
+    .main__directions-title span {
+        font-size: 40px;
     }
     .main__direction-card {
         opacity: 0;
@@ -311,55 +275,6 @@
 
     /*О нас*/
 
-    .about__title {
-        margin-left: 0;
-        text-align: center;
-        font-size: 48px;
-    }
-
-    .about__title span:first-child {
-        margin-right: 10px;
-    }
-
-    .about__divider {
-        margin: 15px auto;
-        width: 250px;
-    }
-
-    .about__description {
-        margin: 30px 20px;
-        text-align: center;
-    }
-
-    .about__btn {
-        margin: 0 auto;
-        display: block;
-    }
-
-    .about__stat-value span:first-child {
-        font-size: 48px;
-    }
-
-    .about__stat-value span:last-child {
-        font-size: 16px;
-    }
-
-    .about__info-card {
-        max-width: 100%;
-        margin: 0 20px !important;
-        transform: none !important;
-    }
-
-    .about__info-title-highlight,
-    .about__info-title-normal {
-        font-size: 48px;
-        margin-left: 20px;
-    }
-
-    .about__info-text {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
 
     /*Наша команда*/
 
@@ -440,9 +355,13 @@
     }
 
     /*Страничка 2 Сервис*/
-    .service-card__title{
-        font-size: 10px;
+    .service-card__title {
+        font-size: 20px;
     }
+    .service-card__title span:first-child {
+        margin: 0;
+    }
+
 
     /* Секция услуг */
     .services {
@@ -662,7 +581,7 @@
     }
 
     .service-card__title {
-        font-size: 15px;
+        font-size: 20px;
         margin: 0;
     }
 
@@ -852,7 +771,36 @@
         grid-template-columns: 1fr;
     }
 }
+@media (min-width: 768px) {
+    .main__directions {
+        margin-top: 80px;
+        padding: 0 30px;
+    }
 
+    .main__directions-title {
+        text-align: end;
+        line-height: 60%;
+    }
+
+    .main__directions-title span:first-child {
+        margin-right: 150px;
+    }
+
+    .main__directions-divider {
+        display: block;
+        margin-top: 10px;
+        margin-right: 0;
+        margin-left: auto;
+    }
+
+    .main__direction-image {
+        height: 240px;
+    }
+
+    .main__direction-name {
+        font-size: 17px;
+    }
+}
 
 
 

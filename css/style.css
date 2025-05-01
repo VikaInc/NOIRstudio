@@ -28,7 +28,7 @@ a {
     font-weight: 400;
 }
 a:hover {
-    color: #4EB0BC;
+    color: #4DAEBA;
 }
 
 /* Плавные переходы */
@@ -45,7 +45,7 @@ button {
 
 button:hover {
     background-color: rgba(78, 176, 188, 0.2);
-    border-color: #4EB0BC;
+    border-color: #4DAEBA;
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(78, 176, 188, 0.3);
 }
@@ -80,7 +80,7 @@ button:hover {
 }
 
 .header__menu-item a:hover {
-    color: #4baab5;
+    color: #4DAEBA;
 }
 
 .header__btn {
@@ -148,6 +148,7 @@ button:hover {
     transform: translateY(-8px) rotate(-45deg);
 }
 
+
 /* Баннер */
 .main__banner {
     position: relative;
@@ -213,7 +214,7 @@ button:hover {
     left: 0;
     width: 100%;
     height: 3px;
-    background: linear-gradient(90deg, #4EB0BC, transparent);
+    background: linear-gradient(90deg, #4DAEBA, transparent);
     transform-origin: left;
     animation: lineExpand 1.2s cubic-bezier(0.65, 0, 0.35, 1) forwards;
 }
@@ -291,7 +292,7 @@ button:hover {
     bottom: 0;
     width: 50px;
     height: 2px;
-    background: #4EB0BC;
+    background: #4DAEBA;
 }
 
 .footer__links,
@@ -315,7 +316,7 @@ button:hover {
 }
 
 .footer__link-item a:hover {
-    color: #4EB0BC;
+    color: #4DAEBA;
     transform: translateX(5px);
 }
 
@@ -472,6 +473,89 @@ button:hover {
     color: #fff;
 }
 
+
+/* Стили для ошибок */
+.error {
+    border: 1px solid red !important;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;
+    display: none;
+}
+
+/* Модальное окно успеха */
+.success-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease-out;
+}
+
+.success-modal.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.success-modal__content {
+    background: #000;
+    border: 1px solid #dadada;
+    padding: 40px;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    position: relative;
+    transform: translateY(20px);
+    transition: transform 0.3s ease-out;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.success-modal.active .success-modal__content {
+    transform: translateY(0);
+}
+
+.success-modal__icon {
+    width: 60px;
+    height: 60px;
+    color: #4CAF50;
+    margin-bottom: 20px;
+    animation: iconScale 0.5s ease-out;
+}
+
+.success-modal h3 {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.success-modal p {
+    color: #aaa;
+    font-size: 16px;
+}
+
+@keyframes iconScale {
+    0% {
+        transform: scale(0);
+    }
+    80% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 @keyframes modalFadeIn {
     from {
         opacity: 0;
@@ -531,4 +615,5 @@ button:hover {
         transform: translateY(0);
     }
 }
+
 

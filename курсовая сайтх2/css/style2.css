@@ -1,0 +1,531 @@
+/* страница 2 */
+.services {
+    margin: 80px 0;
+    padding: 20px 0;
+}
+
+/* Заголовок секции */
+.services__main-title {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #dadada;
+    text-align: right;
+    margin-right: 170px;
+    margin-bottom: 20px;
+}
+
+.services__main-title span:first-child {
+    margin-right: 190px;
+    color: #050505;
+    text-shadow:
+            1px 1px 0 #eee,
+            -1px -1px 0 #eee,
+            1px -1px 0 #eee,
+            -1px 1px 0 #eee;
+}
+
+.services__divider {
+    border: none;
+    height: 1px;
+    background: #fff;
+    width: 411px;
+    margin: 0 0 0 auto;
+}
+
+/* Карточка услуги */
+.service-card {
+    position: relative;
+    margin-bottom: 350px;
+}
+
+.service-card--reverse .service-card__gallery {
+    float: right;
+}
+
+.service-card__title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #dadada;
+    margin-bottom: 20px;
+}
+
+.service-card__title span:first-child {
+    margin-left: 190px;
+    color: #050505;
+    text-shadow:
+            1px 1px 0 #eee,
+            -1px -1px 0 #eee,
+            1px -1px 0 #eee,
+            -1px 1px 0 #eee;
+}
+
+.service-card__divider {
+    border: none;
+    height: 1px;
+    background: #fff;
+    width: 411px;
+    margin-bottom: 50px;
+}
+
+/* Галерея */
+.service-card__gallery {
+    position: relative;
+    width: 320px;
+    height: 680px;
+    float: left;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.service-card__photo {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border: 2px solid #dadada;
+    transition: transform 0.3s ease;
+}
+
+.service-card__photo:hover {
+    transform: scale(1.05);
+    z-index: 2;
+}
+
+.service-card__photo--1 {
+    top: 0;
+    left: 0;
+}
+
+.service-card__photo--2 {
+    top: 210px;
+    left: 120px;
+}
+
+.service-card__photo--3 {
+    top: 480px;
+    left: 0;
+}
+
+
+.service-card__content {
+    overflow: hidden;
+    margin-left: 100px;
+}
+
+.service-card__description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.45;
+    color: #dadada;
+    margin-bottom: 30px;
+    max-width: 550px;
+}
+
+.service-card__button {
+    border: 2px solid #dadada;
+    width: 100px;
+    height: 60px;
+    background: transparent;
+    cursor: pointer;
+    margin-bottom: 50px;
+    transition: background 0.3s ease;
+}
+
+.service-card__button:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Особенности услуги */
+.service-features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    max-width: 800px;
+    margin-left: 100px;
+}
+
+.service-features__item {
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+}
+
+.service-features__title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.45;
+    color: #dadada;
+    margin-bottom: 15px;
+}
+
+.service-features__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.45;
+    color: #dadada;
+}
+
+/*Новые преддожения*/
+
+.new-items {
+    padding: 60px 0;
+}
+
+.new-items__title {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #dadada;
+    margin-right: 70px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.new-items__title span {
+    color: #050505;
+    text-shadow:
+            1px 1px 0 #eee,
+            -1px -1px 0 #eee,
+            1px -1px 0 #eee,
+            -1px 1px 0 #eee;
+    margin-right: 270px;
+}
+.new-arrivals__divider {
+    max-width: 411px;
+    height: 1px;
+    background: #fff;
+    margin: 10px 70px 0 auto;
+}
+
+/* Сетка карточек */
+.new-items__flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 100px;
+}
+
+/* Карточка */
+.new-card {
+    width: 23%;
+    min-width: 250px;
+    background-color: #252525;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.new-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.new-card__image-box {
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+}
+
+.new-card__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.new-card:hover .new-card__image {
+    transform: scale(1.05);
+}
+
+.new-card__badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: #4eb0bc;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    animation: pulse 2s infinite;
+}
+
+.new-card__content {
+    padding: 20px;
+}
+
+.new-card__name {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #4EB0BC;
+    padding-left: 10px;
+}
+
+.new-card__description {
+    font-size: 14px;
+    color: #dadada;
+    line-height: 1.5;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+/* Основные стили блока */
+.photobooks_and_printing {
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+
+/* Контейнер содержимого */
+.photobooks_and_printing__content {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+
+}
+
+/* Стили заголовка */
+.photobooks_and_printing__title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #dadada;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.photobooks_and_printing__title-part {
+    margin-left: 100px;
+    color: #050505;
+    text-shadow:
+            1px 1px 0 #eee,
+            -1px -1px 0 #eee,
+            1px -1px 0 #eee,
+            -1px 1px 0 #eee;
+}
+
+/* Горизонтальная линия после заголовка */
+.photobooks_and_printing__line {
+    border: 1px solid #fff;
+    max-width: 411px;
+    height: 0;
+    margin-top: 10px;
+    border-color: #fff;
+    background: none;
+}
+
+/* Стили карточки с фотокнигой */
+.photobooks_and_printing__card {
+    width: 100%;
+    max-width: 764px;
+    min-height: 438px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    background-color: #252525;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    margin-top: 100px;
+    gap: 100px;
+    padding-right: 10px;
+    padding-bottom: 75px;
+}
+
+/* Изображение в карточке */
+.photobooks_and_printing__card-image {
+    max-width: 288px;
+    height: 302px;
+    object-fit: cover; /* Чтобы изображение правильно масштабировалось */
+}
+
+/* Текстовая часть карточки */
+.photobooks_and_printing__card-text {
+    text-align: center;
+    margin-top: 60px;
+    max-width: 400px;
+}
+
+.photobooks_and_printing__card-title {
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DADADA;
+    margin-bottom: 20px;
+}
+
+.photobooks_and_printing__card-description,
+.photobooks_and_printing__card-price {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    color: #dadada;
+    margin: 10px 50px;
+}
+
+/* Разделительная линия в карточке */
+.photobooks_and_printing__card-line {
+    border: 1px solid #000;
+    width: 67px;
+    height: 0;
+    margin: 15px auto;
+    border-color: #dadada; /* Черный цвет для контраста */
+    background: none;
+}
+
+/* Блок с дополнительной информацией */
+.photobooks_and_printing__info {
+    max-width: 400px;
+}
+
+.photobooks_and_printing__info-text {
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    color: #dadada;
+    margin-top: 170px;
+}
+
+
+.photobooks_and_printing__button {
+    border: 2px solid #dadada;
+    width: 200px;
+    height: 56px;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 82%;
+    text-transform: uppercase;
+    color: #dadada;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Плавный эффект при наведении */
+}
+
+.photobooks_and_printing__button:hover {
+    background-color: rgba(218, 218, 218, 0.1); /* Легкое затемнение при наведении */
+}
+
+.subscribe-section {
+    margin-bottom: 50px;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe__divider {
+    border: 1px solid #dadada;
+    width: 100px;
+    height: 0px;
+    margin-top: 30px;
+}
+
+.subscribe__title {
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #dadada;
+}
+
+.subscribe__description {
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.1em;
+    color: #dadada;
+    max-width: 200px;
+}
+
+.subscribe__form {
+    position: relative;
+}
+
+.subscribe__input {
+    border: 1px solid #dadada;
+    width: 476px;
+    height: 44px;
+    background-color: #06060600;
+    opacity: 0.3;
+    color: #dadadae2;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.subscribe__submit-btn {
+    border: 1px solid #dadada64;
+    width: 147px;
+    height: 44px;
+    background: #000;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    transition: none;
+}
+
+.subscribe__submit-btn:hover {
+    box-shadow: none;
+    transform: none;
+}
+
+.subscribe__agreement {
+    font-weight: 400;
+    font-size: 12px;
+    color: #dadada;
+    margin-top: 10px;
+}
+/* Добавьте эти стили к существующим */
+.error-message {
+    color: #ff6b6b;
+    font-size: 12px;
+    margin-top: 5px;
+    height: 16px;
+    transition: all 0.3s ease;
+}
+
+.subscribe__input.invalid {
+    border-color: #ff6b6b !important;
+    animation: shake 0.5s ease;
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20%, 60% { transform: translateX(-5px); }
+    40%, 80% { transform: translateX(5px); }
+}
+
+.subscribe__input.valid {
+    border-color: #5cb85c !important;
+}
+/* Анимация для бейджа */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .new-items__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .new-items__grid {
+        grid-template-columns: 1fr;
+    }
+}

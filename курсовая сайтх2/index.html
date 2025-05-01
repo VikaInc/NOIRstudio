@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0>
+    <meta name="description" content="Портфолио фотостудии NOIR Studio — услуги, залы, галерея">
+    <title>NOIR Studio — Портфолио</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/adaptive.css">
+    <link rel="preload" as="image" href="./images/pexels-derice-jason-fahnkow-745824-1595244.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+</head>
+<body>
+<header class="header">
+    <nav class="header__nav main-menu">
+        <!-- Логотип -->
+        <img src="images/logo.svg" alt="Логотип" class="header__logo">
+
+        <!-- Основное меню -->
+        <ul class="header__menu" id="mainMenu">
+            <li class="header__menu-item"><a href="#">Главная</a></li>
+            <li class="header__menu-item"><a href="pages/index2.html">Услуги</a></li>
+            <li class="header__menu-item"><a href="pages/index3.html">Залы</a></li>
+            <li class="header__menu-item"><a href="pages/index4.html">Галерея</a></li>
+            <li class="header__menu-item"><a href="pages/index5.html">Контакты</a></li>
+        </ul>
+
+        <!-- Кнопка -->
+        <button class="header__btn">Получить консультацию</button>
+
+        <!-- Бургер-иконка (только для мобильных) -->
+        <button class="burger-menu" aria-label="Открыть меню" id="burgerBtn">
+            <span class="burger-menu__line"></span>
+            <span class="burger-menu__line"></span>
+            <span class="burger-menu__line"></span>
+        </button>
+    </nav>
+
+    <section class="header__discount">
+        <p class="header__discount-item">Скидки на летний сезон</p><hr>
+        <p class="header__discount-item">10% скидка на покупку от 20 000 руб. по коду Summer10</p><hr>
+        <p class="header__discount-item">5% скидка на покупку от 50 000 руб. по коду Summer5</p>
+    </section>
+</header>
+
+<main class="main">
+    <section class="main__banner">
+        <div class="main__banner-content">
+            <p class="main__banner-subtitle">welcome to</p>
+            <h1 class="main__banner-title"><span class="main__banner-title-line">Noir</span><br><span class="main__banner-title-line">Studio</span></h1>
+        </div>
+        <button class="main__banner-btn">Получить консультацию</button>
+    </section>
+
+    <div class="container">
+        <!-- Направления -->
+        <section class="main__directions">
+            <h2 class="main__directions-title"><span>Наши</span><br><span>Направления</span></h2>
+            <hr class="main__directions-divider">
+            <div class="main__directions-flex">
+
+                <article class="main__direction-card">
+                    <div class="main__direction-image">
+                        <img src="images/portret2.jpg" alt="Портретная съемка" loading="lazy">
+                        <img src="images/portret1.jpg" alt="Портретная съемка" loading="lazy">
+                    </div>
+                    <p class="main__direction-name">портретная <br> съемка</p>
+                    <hr class="main__direction-line">
+                </article>
+
+                <article class="main__direction-card">
+                    <div class="main__direction-image">
+                        <img src="images/pexels-miami302-16036376.jpg" alt="Семейные фотосессии" loading="lazy">
+                        <img src="images/pexels-olya-afanasyeva-192436627-25724497.jpg" alt="Семейные фотосессии" loading="lazy">
+                    </div>
+                    <p class="main__direction-name">семейные <br> фотосессии<p>
+                    <hr class="main__direction-line">
+                </article>
+
+                <article class="main__direction-card">
+                    <div class="main__direction-image">
+                        <img src="images/beauty1.jpg" alt="Фэшн и beauty" loading="lazy">
+                        <img src="images/beauty2.jpg" alt="Фэшн и beauty" loading="lazy">
+                    </div>
+                    <p class="main__direction-name">Фэшн <br> и beauty<p>
+                    <hr class="main__direction-line">
+                </article>
+
+                <article class="main__direction-card">
+                    <div class="main__direction-image">
+                        <img src="images/predmet.jpg" alt="Предметная съемка" loading="lazy">
+                        <img src="images/predmet2.jpg" alt="Предметная съемка" loading="lazy">
+                    </div>
+                    <p class="main__direction-name">Предметная <br> съемка <p>
+                    <hr class="main__direction-line">
+                </article>
+            </div>
+            <button class="main__directions-btn" aria-label="Перейти в галерею"><a href="pages/index4.html">Перейти в галерею</a> </button>
+        </section>
+    </div>
+
+    <!-- О нас -->
+    <div class="container">
+        <section class="about">
+            <div class="about__header">
+                <h2 class="about__title"><span>O</span><span>нас</span></h2>
+                <hr class="about__divider">
+                <p class="about__description">Мы профессиональная фотостудия с современным оборудованием и стильными интерьерами. Мы создадим вам атмосферу для идеальных кадров!</p>
+                <button class="about__btn js-open-modal"  aria-label="Открыть модальное окно">
+                    <svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M25.7005 8.91653C26.0942 8.5292 26.0993 7.89606 25.712 7.50237L19.4001 1.08677C19.0128 0.693072 18.3796 0.687913 17.9859 1.07524C17.5923 1.46257 17.5871 2.09572 17.9744 2.48941L23.585 8.19217L17.8822 13.8027C17.4886 14.1901 17.4834 14.8232 17.8707 15.2169C18.2581 15.6106 18.8912 15.6158 19.2849 15.2284L25.7005 8.91653ZM-0.00814751 8.99997L24.991 9.20365L25.0073 7.20372L0.00814751 7.00003L-0.00814751 8.99997Z" fill="#DADADA"/>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="about__stats">
+                <article class="about__stat-item">
+                    <h3 class="about__stat-value"><span>1000 +</span><span><br>Проведенных съемок</span></h3>
+                </article>
+                <article class="about__stat-item">
+                    <h3 class="about__stat-value"><span>10 лет</span><span><br>Опыта</span></h3>
+                </article>
+                <article class="about__stat-item">
+                    <h3 class="about__stat-value"><span>200</span>м<span><br>От Галереи Эрмитаж</span></h3>
+                </article>
+                <article class="about__stat-item">
+                    <h3 class="about__stat-value"><span>5000</span><span><br>Довольных клиентов</span></h3>
+                </article>
+            </div>
+
+            <div class="about__gallery">
+                <img src="images/about_photo-3.jpg" alt="Фото студии" class="about__gallery-photo about__gallery-photo--first" loading="lazy">
+                <img src="images/about_photo-2.jpg" alt="Фото студии" class="about__gallery-photo about__gallery-photo--second" loading="lazy">
+                <img src="images/about_photo-1.jpg" alt="Фото студии" class="about__gallery-photo about__gallery-photo--third" loading="lazy">
+            </div>
+
+            <section class="about__info-cards">
+                <article class="about__info-card about__info-card--left">
+                    <h3 class="about__info-title">
+                        <span class="about__info-title-highlight">Кто</span>
+                        <span class="about__info-title-normal">мы</span>
+                    </h3>
+                    <p class="about__info-text">
+                        Наша фотостудия — это команда профессионалов, объединённых любовью к фотографии и искусству
+                        создания визуальных образов. Мы работаем с разными жанрами съёмки, помогая клиентам воплощать
+                        их идеи в стильные и эмоциональные кадры.
+                    </p>
+                </article>
+
+                <article class="about__info-card about__info-card--right">
+                    <h3 class="about__info-title">
+                        <span class="about__info-title-highlight">Что мы</span>
+                        <span class="about__info-title-normal">делаем</span>
+                    </h3>
+                    <p class="about__info-text">
+                        Мы создаём профессиональные фотографии, которые помогают нашим клиентам раскрыть себя,
+                        продвигать бизнес или сохранить важные моменты жизни.
+                    </p>
+                </article>
+
+                <article class="about__info-card about__info-card--left">
+                    <h3 class="about__info-title">
+                        <span class="about__info-title-highlight">Как мы</span>
+                        <span class="about__info-title-normal">работаем</span>
+                    </h3>
+                    <p class="about__info-text">
+                        Наш процесс съемки прост и удобен:<br>
+                        Бронирование — выберите дату, время и зал через сайт или администратора.<br>
+                        Подготовка — определите стиль, образы, декор и дополнительные услуги (визаж, стилист).<br>
+                        Съемка — команда профессионалов поможет вам чувствовать себя уверенно.
+                    </p>
+                </article>
+            </section>
+        </section>
+    </div>
+
+    <!-- Команда -->
+    <div class="container">
+        <section class="team">
+            <h3 class="team__title"><span>Наша</span><br><span>Команда</span></h3>
+            <hr class="team__divider">
+            <div class="team__grid">
+
+                <article class="team__member">
+                    <img src="images/avatar1.jpg" alt="Мария Иванова" class="team__member-photo" loading="lazy">
+                    <h4 class="team__member-name">Мария<br>Иванова</h4>
+                    <p class="team__member-position">Ретушер</p>
+                </article>
+
+                <article class="team__member">
+                    <img src="images/avatar2.jpg" alt="Екатерина Волкова" class="team__member-photo" loading="lazy">
+                    <h4 class="team__member-name">Екатерина<br>Волкова</h4>
+                    <p class="team__member-position">Стилист и визажист</p>
+                </article>
+
+                <article class="team__member">
+                    <img src="images/avatar3.jpg" alt="Алексей Смирнов" class="team__member-photo" loading="lazy">
+                    <h4 class="team__member-name">Алексей<br>Смирнов</h4>
+                    <p class="team__member-position">Технический специалист</p>
+                </article>
+
+                <article class="team__member">
+                    <img src="images/avatar4.jpg" alt="Александр Воцмуш" class="team__member-photo" loading="lazy">
+                    <h4 class="team__member-name">Александр<br>Воцмуш</h4>
+                    <p class="team__member-position">Главный фотограф</p>
+                </article>
+
+                <article class="team__member">
+                    <img src="images/avatar5.jpg" alt="Анна Сергеева" class="team__member-photo" loading="lazy">
+                    <h4 class="team__member-name">Анна<br>Сергеева</h4>
+                    <p class="team__member-position">Администратор</p>
+                </article>
+            </div>
+        </section>
+    </div>
+</main>
+
+<!-- Футер -->
+<footer class="footer">
+    <div class="footer__content">
+        <section class="footer__section">
+            <h3 class="footer__title">Покупателям</h3>
+            <ul class="footer__links">
+                <li class="footer__link-item"><a href="#">Как сделать заказ</a></li>
+                <li class="footer__link-item"><a href="#">Оплата и доставка</a></li>
+                <li class="footer__link-item"><a href="#">Возврат товара</a></li>
+                <li class="footer__link-item"><a href="#">Публичная оферта</a></li>
+                <li class="footer__link-item"><a href="#">Политика конфиденциальности</a></li>
+            </ul>
+        </section>
+
+        <section class="footer__section">
+            <h3 class="footer__title">Контакты</h3>
+            <ul class="footer__contacts">
+                <li class="footer__contact-item"><i class="fas fa-phone"></i> +7 (812) 438-01-14</li>
+                <li class="footer__contact-item"><i class="fas fa-envelope"></i> info@noirstudio.ru</li>
+                <li class="footer__contact-item"><i class="fas fa-clock"></i> Пн-Вс 09:00-20:00</li>
+                <li class="footer__contact-item"><i class="fas fa-map-marker-alt"></i> Санкт-Петербург, ул. Большая Конюшенная, 11</li>
+            </ul>
+        </section>
+
+        <section class="footer__section">
+            <h3 class="footer__title">О нас</h3>
+            <ul class="footer__links">
+                <li class="footer__link-item"><a href="#">Кто мы</a></li>
+                <li class="footer__link-item"><a href="#">Реквизиты</a></li>
+                <li class="footer__link-item"><a href="#">Отзывы</a></li>
+            </ul>
+        </section>
+
+        <section class="footer__section">
+            <h3 class="footer__title">Партнерам</h3>
+            <ul class="footer__links">
+                <li class="footer__link-item"><a href="#">Заявка на сотрудничество</a></li>
+                <li class="footer__link-item"><a href="#">Услуги</a></li>
+            </ul>
+        </section>
+
+        <section class="footer__section">
+            <h3 class="footer__title">Мы в соцсетях</h3>
+            <div class="footer__social">
+                <a href="#" class="footer__social-link"><img src="images/instagram.svg" alt="Instagram" loading="lazy"></a>
+                <a href="#" class="footer__social-link"><img src="images/facebook.svg" alt="Facebook" loading="lazy"></a>
+                <a href="#" class="footer__social-link"><img src="images/twitter.svg" alt="Twitter" loading="lazy"></a>
+                <a href="#" class="footer__social-link"><img src="images/googlglgl.svg" alt="Google" loading="lazy"></a>
+            </div>
+
+            <h4 class="footer__payment-title">Мы принимаем</h4>
+            <div class="footer__payment-methods">
+                <img src="images/visa.svg" alt="Visa" class="footer__payment-method" loading="lazy">
+                <img src="images/paypal.svg" alt="PayPal" class="footer__payment-method" loading="lazy">
+                <img src="images/master_card (1).svg" alt="MasterCard" class="footer__payment-method" loading="lazy">
+                <img src="images/union_pay.svg" alt="Union_pay" class="footer__payment-method" loading="lazy">
+            </div>
+        </section>
+    </div>
+
+    <div class="footer__copyright">
+        <p class="footer__copyright-text">© Copyright 2020 Noir Studio. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- Добавьте перед закрывающим </body> -->
+<div class="contact-modal" id="contactModal">
+    <div class="contact-modal__content">
+        <span class="contact-modal__close">&times;</span>
+        <h3 class="contact-modal__title">Свяжитесь с нами</h3>
+        <form class="contact-form">
+            <div class="form-group">
+                <input type="text" placeholder="Ваше имя" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <input type="tel" placeholder="Телефон">
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Ваше сообщение" rows="4"></textarea>
+            </div>
+            <button type="submit" class="contact-form__submit">Отправить</button>
+        </form>
+    </div>
+</div>
+<script src="./js/main.js"></script>
+</body> 
+</html>

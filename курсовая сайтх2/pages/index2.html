@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Фотостудия</title>
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="stylesheet" href="./../css/style2.css">
+    <link rel="stylesheet" href="./../css/adaptive.css">
+</head>
+<body>
+<header class="header">
+    <nav class="header__nav main-menu">
+        <!-- Логотип -->
+        <img src="../images/logo.svg" alt="Логотип" class="header__logo">
+
+        <!-- Основное меню -->
+        <ul class="header__menu" id="mainMenu">
+            <li class="header__menu-item"><a href="./../index.html">Главная</a></li>
+            <li class="header__menu-item"><a href="#">Услуги</a></li>
+            <li class="header__menu-item"><a href="./index3.html">Залы</a></li>
+            <li class="header__menu-item"><a href="./index4.html">Галерея</a></li>
+            <li class="header__menu-item"><a href="./index5.html">Контакты</a></li>
+        </ul>
+
+        <!-- Кнопка -->
+        <button class="header__btn">Получить консультацию</button>
+
+        <!-- Бургер-иконка (только для мобильных) -->
+        <button class="burger-menu" aria-label="Открыть меню" id="burgerBtn">
+            <span class="burger-menu__line"></span>
+            <span class="burger-menu__line"></span>
+            <span class="burger-menu__line"></span>
+        </button>
+    </nav>
+
+    <section class="header__discount">
+        <p class="header__discount-item">Скидки на летний сезон</p><hr>
+        <p class="header__discount-item">10% скидка на покупку от 20 000 руб. по коду Summer10</p><hr>
+        <p class="header__discount-item">5% скидка на покупку от 50 000 руб. по коду Summer5</p>
+    </section>
+</header>
+    
+    <main class="main">
+        <section class="main__banner">
+            <div class="main__banner-content">
+                <p class="main__banner-subtitle">welcome to</p>
+                <h1 class="main__banner-title"><span class="main__banner-title-line">Noir</span><br><span class="main__banner-title-line">Studio</span></h1>
+            </div>
+            <button class="main__banner-btn">Получить консультацию</button>
+        </section>
+    <div class="container">
+        <section class="services">
+            <h2 class="services__main-title"><span>Наши</span><br>услуги</h2>
+            <hr class="services__divider">
+
+            <article class="service-card">
+                <h3 class="service-card__title"><span>Индивидуальные</span><br>и групповые фотосессии</h3>
+                <hr class="service-card__divider">
+
+                <div class="service-card__gallery">
+                    <img src="../images/portrait_photography.jpg" alt="Фотосессия" class="service-card__photo service-card__photo--1">
+                    <img src="../images/fashion_photography.jpg" alt="Фотосессия" class="service-card__photo service-card__photo--2">
+                    <img src="../images/family_photography.jpg" alt="Фотосессия" class="service-card__photo service-card__photo--3">
+                </div>
+
+                <div class="service-card__content">
+                    <p class="service-card__description">Создайте незабываемые образы и сохраните важные моменты в профессиональных снимках. Мы подберем идеальную локацию, стиль и освещение, чтобы подчеркнуть вашу индивидуальность.</p>
+
+                    <button class="service-card__button js-open-modal">
+                        <svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M25.7005 8.91653C26.0942 8.5292 26.0993 7.89606 25.712 7.50237L19.4001 1.08677C19.0128 0.693072 18.3796 0.687913 17.9859 1.07524C17.5923 1.46257 17.5871 2.09572 17.9744 2.48941L23.585 8.19217L17.8822 13.8027C17.4886 14.1901 17.4834 14.8232 17.8707 15.2169C18.2581 15.6106 18.8912 15.6158 19.2849 15.2284L25.7005 8.91653ZM-0.00814751 8.99997L24.991 9.20365L25.0073 7.20372L0.00814751 7.00003L-0.00814751 8.99997Z" fill="#DADADA"/>
+                        </svg>
+                    </button>
+
+                    <div class="service-features">
+                        <div class="service-features__item">
+                            <h4 class="service-features__title">Портретная съемка</h4>
+                            <p class="service-features__text">Подчеркиваем вашу индивидуальность с эффектным светом и стильной композицией</p>
+                        </div>
+                        <div class="service-features__item">
+                            <h4 class="service-features__title">Fashion-фотосессия</h4>
+                            <p class="service-features__text">Профессиональный макияж, продуманный образ и выразительные позы</p>
+                        </div>
+                        <div class="service-features__item">
+                            <h4 class="service-features__title">Семейная фотосессия</h4>
+                            <p class="service-features__text">Уютные и душевные снимки с родными, наполненные теплом</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="service-card service-card--reverse">
+                <h3 class="service-card__title"><span>Контент для брендов</span><br>и бизнеса</h3>
+                <hr class="service-card__divider">
+
+                <div class="service-card__gallery">
+                    <img src="../images/image_photo_session.jpg" alt="Контент для брендов" class="service-card__photo service-card__photo--1">
+                    <img src="../images/catalog_survey.jpg" alt="Контент для брендов" class="service-card__photo service-card__photo--2">
+                    <img src="../images/frame_ for_cellular_networks.jpg" alt="Контент для брендов" class="service-card__photo service-card__photo--3">
+                </div>
+
+                <div class="service-card__content">
+                    <p class="service-card__description">Визуальная составляющая – ключ к успеху любого бренда. Мы создаем стильный контент, который привлечет внимание вашей аудитории и подчеркнет уникальность вашего продукта.</p>
+
+                    <button class="service-card__button js-open-modal">
+                        <svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M25.7005 8.91653C26.0942 8.5292 26.0993 7.89606 25.712 7.50237L19.4001 1.08677C19.0128 0.693072 18.3796 0.687913 17.9859 1.07524C17.5923 1.46257 17.5871 2.09572 17.9744 2.48941L23.585 8.19217L17.8822 13.8027C17.4886 14.1901 17.4834 14.8232 17.8707 15.2169C18.2581 15.6106 18.8912 15.6158 19.2849 15.2284L25.7005 8.91653ZM-0.00814751 8.99997L24.991 9.20365L25.0073 7.20372L0.00814751 7.00003L-0.00814751 8.99997Z" fill="#DADADA"/>
+                        </svg>
+                    </button>
+
+                    <div class="service-features">
+                        <div class="service-features__item">
+                            <h4 class="service-features__title">Имиджевая фотосессия</h4>
+                            <p class="service-features__text">Эффектные кадры, подчеркивающие стиль и концепцию бренда</p>
+                        </div>
+                        <div class="service-features__item">
+                            <h4 class="service-features__title">Каталоговая съемка</h4>
+                            <p class="service-features__text">Предметные фото продукции для интернет-магазинов, маркетплейсов и соцсетей</p>
+                        </div>
+                        <div class="service-features__item">
+                            <h4 class="service-features__title">Кадры для соцсетей и рекламы</h4>
+                            <p class="service-features__text">Яркие, продающие снимки, которые привлекут аудиторию</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="service-card">
+                <h4 class="service-card__title"><span>Съемка</span><br>мероприятий</h4>
+                <hr class="service-card__divider">
+
+                <div class="service-card__gallery">
+                    <img src="../images/concerts_and_festivals.jpg" alt="Съемка мероприятий" class="service-card__photo service-card__photo--1">
+                    <img src="../images/weddings_and_anniversaries.jpg" alt="Съемка мероприятий" class="service-card__photo service-card__photo--2">
+                    <img src="../images/exhibitions_and_presentations.jpg" alt="Съемка мероприятий" class="service-card__photo service-card__photo--3">
+                </div>
+
+                <div class="service-card__content">
+                    <p class="service-card__description">Создайте незабываемые образы и сохраните важные моменты в профессиональных снимках. Мы подберем идеальную локацию, стиль и освещение, чтобы подчеркнуть вашу индивидуальность.</p>
+
+                    <button class="service-card__button js-open-modal">
+                        <svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M25.7005 8.91653C26.0942 8.5292 26.0993 7.89606 25.712 7.50237L19.4001 1.08677C19.0128 0.693072 18.3796 0.687913 17.9859 1.07524C17.5923 1.46257 17.5871 2.09572 17.9744 2.48941L23.585 8.19217L17.8822 13.8027C17.4886 14.1901 17.4834 14.8232 17.8707 15.2169C18.2581 15.6106 18.8912 15.6158 19.2849 15.2284L25.7005 8.91653ZM-0.00814751 8.99997L24.991 9.20365L25.0073 7.20372L0.00814751 7.00003L-0.00814751 8.99997Z" fill="#DADADA"/>
+                        </svg>
+                    </button>
+
+                    <div class="service-features">
+                        <div class="service-features__item">
+                            <h4 class="service-features__title">Концерты и фестивали</h4>
+                            <p class="service-features__text">Динамичные репортажные снимки с яркими моментами</p>
+                        </div>
+                        <div class="service-features__item">
+                            <h4 class="service-features__title">Свадьбы и юбилеи</h4>
+                            <p class="service-features__text">Стильные и трогательные кадры, передающие искренние эмоции</p>
+                        </div>
+                        <div class="service-features__item">
+                            <h4 class="service-features__title">Выставки и презентации</h4>
+                            <p class="service-features__text">Фотографии экспонатов, спикеров, гостей и важных деталей</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </div>
+
+
+    <section class="new-items">
+        <div class="container">
+            <h4 class="new-items__title"><span>Новые</span><br>поступления</h4>
+            <hr class="new-arrivals__divider">
+
+            <div class="new-items__flex">
+                <div class="new-card">
+                    <div class="new-card__image-box">
+                        <span class="new-card__badge">NEW</span>
+                        <img src="../images/new.jpg" alt="Новые фотозоны" class="new-card__image">
+                    </div>
+                    <h3 class="new-card__name">Новые фотозоны</h3>
+                    <p class="new-card__description">Мы постоянно обновляем интерьер нашей студии</p>
+                </div>
+
+                <div class="new-card">
+                    <div class="new-card__image-box">
+                        <span class="new-card__badge">NEW</span>
+                        <img src="../images/new_1.jpg" alt="Обновленное оборудование" class="new-card__image">
+                    </div>
+                    <h4 class="new-card__name">Обновленное оборудование</h4>
+                    <p class="new-card__description">Новые камеры и световые приборы для лучшего качества</p>
+                </div>
+
+                <div class="new-card">
+                    <div class="new-card__image-box">
+                        <span class="new-card__badge">NEW</span>
+                        <img src="../images/new_2.jpg" alt="Специальные предложения" class="new-card__image">
+                    </div>
+                    <h4 class="new-card__name">Специальные предложения</h4>
+                    <p class="new-card__description">Акции и скидки на фотосессии</p>
+                </div>
+
+                <div class="new-card">
+                    <div class="new-card__image-box">
+                        <span class="new-card__badge">NEW</span>
+                        <img src="../images/new_3.jpg" alt="Коллаборации" class="new-card__image">
+                    </div>
+                    <h4 class="new-card__name">Коллаборации</h4>
+                    <p class="new-card__description">Совместные проекты с брендами и стилистами</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="photobooks_and_printing">
+        <div class="container">
+          <!-- Заголовок секции -->
+          <div class="photobooks_and_printing__header">
+            <h4 class="photobooks_and_printing__title">
+              <span class="photobooks_and_printing__title-part">Фотокниги</span><br>
+              и печать
+            </h4>
+            <hr class="photobooks_and_printing__line">
+          </div>
+      
+          <!-- Основное содержимое -->
+          <div class="photobooks_and_printing__content">
+            <!-- Карточка с фотокнигой -->
+            <div class="photobooks_and_printing__card">
+              <div class="photobooks_and_printing__card-text">
+                <h5 class="photobooks_and_printing__card-title">Фотокниги</h5>
+                <p class="photobooks_and_printing__card-description">Фотокниги — дизайнерские альбомы с плотными страницами, которые могут быть оформлены в разных стилях. Такие фотокниги идеально подходят для свадеб, путешествий или семейных событий.</p>
+                <hr class="photobooks_and_printing__card-line">
+                <p class="photobooks_and_printing__card-price">от 500 p. до 8000 p.</p>
+              </div>
+              
+              <img class="photobooks_and_printing__card-image" src="../images/photobooksimg.jpg" alt="Пример фотокниги">
+            </div>
+      
+            <!-- Дополнительная информация -->
+            <div class="photobooks_and_printing__info">
+              <p class="photobooks_and_printing__info-text">Создайте незабываемые воспоминания с помощью наших фотокниг и печатной продукции. Мы предлагаем стильные фотокниги с плотными страницами, распечатку фотографий в разных форматах, постеры и холсты для украшения интерьера, а также мини-фото с винтажным эффектом в стиле полароида. Сохраните важные моменты жизни в красивом и долговечном формате, который будет радовать вас и ваших близких.</p>
+              <button class="photobooks_and_printing__button js-open-modal">Свяжитесь с нами</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+        <section class="subscribe-section">
+            <div class="container">
+                <div class="subscribe">
+                    <hr class="subscribe__divider">
+                    <h5 class="subscribe__title">10 %</h5>
+                    <p class="subscribe__description">Получи скидку на свою первую фотосессию</p>
+
+                    <form class="subscribe__form" id="subscribeForm">
+                        <div class="subscribe__input-wrapper">
+                            <input type="email" class="subscribe__input" id="emailInput" placeholder="E-mail" required>
+                            <button type="submit" class="subscribe__submit-btn">подписаться</button>
+                        </div>
+                        <div class="error-message" id="errorMessage" style="display: none;"></div>
+                        <p class="subscribe__agreement">
+                            Подписываясь, вы соглашаетесь с нашей
+                            <a href="/privacy" class="discount__link">политикой конфиденциальности</a>
+                        </p>
+                    </form>
+
+                    <hr class="subscribe__divider">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__content">
+            <section class="footer__section">
+                <h5 class="footer__title">Покупателям</h5>
+                <ul class="footer__links">
+                    <li class="footer__link-item"><a href="#">Как сделать заказ</a></li>
+                    <li class="footer__link-item"><a href="#">Оплата и доставка</a></li>
+                    <li class="footer__link-item"><a href="#">Возврат товара</a></li>
+                    <li class="footer__link-item"><a href="#">Публичная оферта</a></li>
+                    <li class="footer__link-item"><a href="#">Политика конфиденциальности</a></li>
+                </ul>
+            </section>
+    
+            <section class="footer__section">
+                <h5 class="footer__title">Контакты</h5>
+                <ul class="footer__contacts">
+                    <li class="footer__contact-item"><i class="fas fa-phone"></i> +7 (812) 438-01-14</li>
+                    <li class="footer__contact-item"><i class="fas fa-envelope"></i> info@noirstudio.ru</li>
+                    <li class="footer__contact-item"><i class="fas fa-clock"></i> Пн-Вс 09:00-20:00</li>
+                    <li class="footer__contact-item"><i class="fas fa-map-marker-alt"></i> Санкт-Петербург, ул. Большая Конюшенная, 11</li>
+                </ul>
+            </section>
+    
+            <section class="footer__section">
+                <h5 class="footer__title">О нас</h5>
+                <ul class="footer__links">
+                    <li class="footer__link-item"><a href="#">Кто мы</a></li>
+                    <li class="footer__link-item"><a href="#">Реквизиты</a></li>
+                    <li class="footer__link-item"><a href="#">Отзывы</a></li>
+                </ul>
+            </section>
+    
+            <section class="footer__section">
+                <h5 class="footer__title">Партнерам</h5>
+                <ul class="footer__links">
+                    <li class="footer__link-item"><a href="#">Заявка на сотрудничество</a></li>
+                    <li class="footer__link-item"><a href="#">Услуги</a></li>
+                </ul>
+            </section>
+    
+            <section class="footer__section">
+                <h5 class="footer__title">Мы в соцсетях</h5>
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link"><img src="../images/instagram.svg" alt="Instagram" loading="lazy"></a>
+                    <a href="#" class="footer__social-link"><img src="../images/facebook.svg" alt="Facebook" loading="lazy"></a>
+                    <a href="#" class="footer__social-link"><img src="../images/twitter.svg" alt="Twitter" loading="lazy"></a>
+                    <a href="#" class="footer__social-link"><img src="../images/googlglgl.svg" alt="Google" loading="lazy"></a>
+                </div>
+    
+                <h5 class="footer__payment-title">Мы принимаем</h5>
+                <div class="footer__payment-methods">
+                    <img src="../images/visa.svg" alt="Visa" class="footer__payment-method" loading="lazy">
+                    <img src="../images/paypal.svg" alt="PayPal" class="footer__payment-method" loading="lazy">
+                    <img src="../images/master_card (1).svg" alt="MasterCard" class="footer__payment-method" loading="lazy">
+                    <img src="../images/union_pay.svg" alt="Union_pay" class="footer__payment-method" loading="lazy">
+                </div>
+            </section>
+        </div>
+    
+        <div class="footer__copyright">
+            <p class="footer__copyright-text">© Copyright 2020 Noir Studio. All rights reserved.</p>
+        </div>
+    </footer>
+    <div class="contact-modal" id="contactModal">
+        <div class="contact-modal__content">
+            <span class="contact-modal__close">&times;</span>
+            <h5 class="contact-modal__title">Свяжитесь с нами</h5>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Ваше имя" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="Телефон">
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Ваше сообщение" rows="4"></textarea>
+                </div>
+                <button type="submit" class="contact-form__submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+    <script src="./../js/main.js"></script>
+</body>
+</html>

@@ -53,14 +53,14 @@
 }
 
 .contact-card:hover {
-    border-color: #4EB0BC;
+    border-color: #4DAEBA;
     transform: translateY(-10px);
     box-shadow: 0 10px 30px rgba(78, 176, 188, 0.2);
 }
 
 .contact-card__icon {
     font-size: 2.5em;
-    color: #4EB0BC;
+    color: #4DAEBA;
     margin-bottom: 20px;
 }
 
@@ -86,7 +86,7 @@
 }
 
 .contact-card__info a:hover {
-    color: #4EB0BC;
+    color: #4DAEBA;
 }
 
 .contacts__map {
@@ -110,7 +110,7 @@
 }
 .contacts__map iframe:hover {
     transform: scale(1.03);
-    border-color: #4EB0BC;
+    border-color: #4DAEBA;
     box-shadow: 0 10px 30px rgba(78, 176, 188, 0.2);
 }
 

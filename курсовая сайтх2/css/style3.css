@@ -1,0 +1,156 @@
+.location-choice > h2 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #dadada;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.location-choice > h2 span:first-child {
+    margin-left: 100px;
+    color: #050505;
+    text-shadow:
+            1px 1px 0px #eee,
+            -1px -1px 0px #eee,
+            1px -1px 0px #eee,
+            -1px 1px 0px #eee;
+}
+.location-choice > hr {
+    border: 1px solid #fff;
+    width: 411px;
+    height: 0px;
+    margin-top: 10px;
+}
+.location-choice__card__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    max-width: 800px;
+    margin: 100px auto;
+}
+.location-choice__card {
+    border: 4px solid #dadada;
+    width: 250px;
+    height: 350px;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease
+}
+.location-choice__card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.location-choice__card > img {
+    width: 240px;
+    height: 340px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.location-choice__card__title {
+    position: absolute;
+    top: 200px;
+    left: 70px;
+}
+.location-choice__card__title > h3 {
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 20px;
+    text-shadow: 1px 1px 1px #000;
+}
+.location-choice__card-btn {
+    border: 2px solid #dadada;
+    width: 100px;
+    height: 50px;
+    background-color: #06060665;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 82%;
+    color: #dadada;
+    margin-top: 50px;
+
+}
+.location-choice__card-btn:hover {
+    background: #4eb0bc;
+}
+.halls__container {
+    margin: 100px 0;
+}
+.halls__container > h3 {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 57%;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: end;
+}
+.halls__container > hr {
+    width: 215px;
+    height: 0;
+    float: right;
+    margin-top: 15px;
+}
+.halls__container__info {
+    display: flex;
+    gap: 60px;
+}
+.halls__container__photo {
+    margin: 100px 50px;
+}
+.halls__container__photo-margin {
+    margin-left: 16px;
+}
+.halls__container__photo-group {
+    display: flex;
+    margin: 20px 0;
+
+}
+.halls__container__photo-group img {
+    width: 155px;
+    height: 155px;
+    clip-path: polygon(10% 10%, 90% 10%, 90% 90%, 10% 90%);
+}
+.halls__container__text {
+    margin-top: 100px;
+    max-width: 600px;
+}
+.halls__container__text > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    color: #dadada;
+    padding: 20px 0;
+}
+
+.halls__container__text-btn {
+    border: 2px solid #dadada;
+    width: 100px;
+    height: 50px;
+    background-color: #06060665;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 82%;
+    color: #dadada;
+    margin-top: 50px;
+}
+.halls__container2 {
+    margin: 100px 50px;
+}
+.halls__container2 > h3 {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 57%;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #fff;
+}
+.halls__container2 > hr {
+    width: 215px;
+    height: 0;
+    margin-top: 15px;
+}

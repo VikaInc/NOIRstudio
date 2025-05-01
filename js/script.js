@@ -265,7 +265,6 @@ filterCheckboxes.forEach(checkbox => {
                 if (cb.value !== 'all') cb.checked = false;
             });
         }
-
         // Сбрасываем счетчик и загружаем фото
         visiblePhotos = 9;
         loadPhotos();
